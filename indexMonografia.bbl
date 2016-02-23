@@ -1,0 +1,79 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{1.53 }
+
+\bibitem[abnTeX 2009]{abnTeX2009}
+\abntrefinfo{abnTeX}{ABNTEX}{2009}
+{ABNTEX. \textbf{Absurdas normas para \TeX}. 2009.
+Dispon{\'\i}vel em: $<$http://sourceforge.net/apps/
+  mediawiki/abntex/index.php$>$. Acesso em: 8 nov. 2011.}
+
+\bibitem[Buerger 1989]{Buerger1989}
+\abntrefinfo{Buerger}{BUERGER}{1989}
+{BUERGER, D.~J. \textbf{\LaTeX\ for scientists and engineers}. Singapura:
+  McGraw-Hill, 1989.}
+
+\bibitem[CTAN 2009]{CTAN2009}
+\abntrefinfo{CTAN}{CTAN}{2009}
+{CTAN. \textbf{The comprehensive \TeX\ archive network}. 2009.
+Dispon{\'\i}vel em: $<$http://www.ctan. org$>$. Acesso em: 8 nov. de 2011.}
+
+\bibitem[Goossens \emph{et al.} 2007]{Goossens2007}
+\abntrefinfo{Goossens \emph{et al.}}{GOOSSENS \emph{et al.}}{2007}
+{GOOSSENS, M. \emph{et al.} \textbf{The \LaTeX\ graphics companion}. 2. ed.
+  Boston: Addison-Wesley, 2007.}
+
+\bibitem[JabRef 2009]{JabRef2009}
+\abntrefinfo{JabRef}{JABREF}{2009}
+{JABREF. \textbf{JabRef reference manager}. 2009.
+Dispon{\'\i}vel em: $<$http://jabref.sourceforge.net$>$. Acesso em: 8 nov.
+  2011.}
+
+\bibitem[Kopka \& Daly 2003]{Kopka2003}
+\abntrefinfo{Kopka \& Daly}{KOPKA; DALY}{2003}
+{KOPKA, H.; DALY, P.~W. \textbf{Guide to \LaTeX}. 4. ed. Boston:
+  Addison-Wesley, 2003.}
+
+\bibitem[Lamport 1986]{Lamport1986}
+\abntrefinfo{Lamport}{LAMPORT}{1986}
+{LAMPORT, L. \textbf{\LaTeX: \normalfont a document preparation system}.
+  Boston: Addison-Wesley, 1986.}
+
+\bibitem[Mendeley 2009]{Mendeley2009}
+\abntrefinfo{Mendeley}{MENDELEY}{2009}
+{MENDELEY. \textbf{Mendeley: \normalfont academic software for research
+  papers}. 2009.
+Dispon{\'\i}vel em: $<$http://www.mendeley.com$>$. Acesso em: 8 nov. de 2011.}
+
+\bibitem[MiKTeX 2009]{MiKTeX2009}
+\abntrefinfo{MiKTeX}{MIKTEX}{2009}
+{MIKTEX. \textbf{The MiK\TeX\ project}. 2009.
+Dispon{\'\i}vel em: $<$http://www.miktex.org$>$. Acesso em: 8 nov. de 2011.}
+
+\bibitem[Mittelbach \emph{et al.} 2004]{Mittelbach2004}
+\abntrefinfo{Mittelbach \emph{et al.}}{MITTELBACH \emph{et al.}}{2004}
+{MITTELBACH, F. \emph{et al.} \textbf{The \LaTeX\ companion}. 2. ed. Boston:
+  Addison-Wesley, 2004.}
+
+\bibitem[TeX-BR 2009]{TeX-Br2009}
+\abntrefinfo{TeX-BR}{TEX-BR}{2009}
+{TEX-BR. \textbf{Comunidade \TeX-Br}. 2009.
+Dispon{\'\i}vel em: $<$http://www.tex-br.org/index.php$>$. Acesso em: 8 nov.
+  2011.}
+
+\bibitem[TeXnicCenter 2009]{TeXnicCenter2009}
+\abntrefinfo{TeXnicCenter}{TEXNICCENTER}{2009}
+{TEXNICCENTER. \textbf{\TeX nicCenter: \normalfont the center of your \LaTeX\
+  universe}. 2009.
+Dispon{\'\i}vel em: $<$http://www.texniccenter.org$>$. Acesso em: 8 nov. 2011.}
+
+\bibitem[Wikibooks 2009]{Wikibooks2009}
+\abntrefinfo{Wikibooks}{WIKIBOOKS}{2009}
+{WIKIBOOKS. \textbf{\LaTeX}. 2009.
+Dispon{\'\i}vel em: $<$http://en.wikibooks.org/wiki/LaTeX$>$. Acesso em: 8 nov.
+  2011.}
+
+\end{thebibliography}
