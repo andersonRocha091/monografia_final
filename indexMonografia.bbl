@@ -26,6 +26,13 @@ Dispon{\'\i}vel em: $<$http://www.ctan. org$>$. Acesso em: 8 nov. de 2011.}
 {GOOSSENS, M. \emph{et al.} \textbf{The \LaTeX\ graphics companion}. 2. ed.
   Boston: Addison-Wesley, 2007.}
 
+\bibitem[Irwin \& Shoichet 2005]{irwin2005zinc}
+\abntrefinfo{Irwin \& Shoichet}{IRWIN; SHOICHET}{2005}
+{IRWIN, J.~J.; SHOICHET, B.~K. Zinc-a free database of commercially available
+  compounds for virtual screening.
+\textbf{Journal of chemical information and modeling}, ACS Publications, v.~45,
+  n.~1, p. 177--182, 2005.}
+
 \bibitem[JabRef 2009]{JabRef2009}
 \abntrefinfo{JabRef}{JABREF}{2009}
 {JABREF. \textbf{JabRef reference manager}. 2009.
@@ -37,10 +44,27 @@ Dispon{\'\i}vel em: $<$http://jabref.sourceforge.net$>$. Acesso em: 8 nov.
 {KOPKA, H.; DALY, P.~W. \textbf{Guide to \LaTeX}. 4. ed. Boston:
   Addison-Wesley, 2003.}
 
+\bibitem[Kubinyi \emph{et al.} 2008]{kubinyi2008virtual}
+\abntrefinfo{Kubinyi \emph{et al.}}{KUBINYI \emph{et al.}}{2008}
+{KUBINYI, H. \emph{et al.} \textbf{Virtual screening for bioactive molecules}.
+  [S.l.]: John Wiley \& Sons, 2008.}
+
+\bibitem[Kumar 2012]{kumar2012}
+\abntrefinfo{Kumar}{KUMAR}{2012}
+{KUMAR, A. Applications of chemoinformatics in drug discovery :
+  Substructure/structure search.
+\textbf{Asian Journal of Biochemical and Pharmaceutical Research}, AJBPAD,
+  v.~2, n.~4, p. 135--143, 2012.}
+
 \bibitem[Lamport 1986]{Lamport1986}
 \abntrefinfo{Lamport}{LAMPORT}{1986}
 {LAMPORT, L. \textbf{\LaTeX: \normalfont a document preparation system}.
   Boston: Addison-Wesley, 1986.}
+
+\bibitem[Li \emph{et al.} 2010]{li2010pubchem}
+\abntrefinfo{Li \emph{et al.}}{LI \emph{et al.}}{2010}
+{LI, Q. \emph{et al.} Pubchem as a public resource for drug discovery.
+\textbf{Drug discovery today}, Elsevier, v.~15, n.~23, p. 1052--1057, 2010.}
 
 \bibitem[Mendeley 2009]{Mendeley2009}
 \abntrefinfo{Mendeley}{MENDELEY}{2009}
@@ -57,6 +81,23 @@ Dispon{\'\i}vel em: $<$http://www.miktex.org$>$. Acesso em: 8 nov. de 2011.}
 \abntrefinfo{Mittelbach \emph{et al.}}{MITTELBACH \emph{et al.}}{2004}
 {MITTELBACH, F. \emph{et al.} \textbf{The \LaTeX\ companion}. 2. ed. Boston:
   Addison-Wesley, 2004.}
+
+\bibitem[Pavlov \emph{et al.} 2011]{pavlov2011indigo}
+\abntrefinfo{Pavlov \emph{et al.}}{PAVLOV \emph{et al.}}{2011}
+{PAVLOV, D. \emph{et al.} Indigo: universal cheminformatics api.
+\textbf{J. Cheminformatics}, v.~3, n.~S-1, p.~4, 2011.}
+
+\bibitem[Rodrigues \emph{et al.} 2012]{rodrigues2012}
+\abntrefinfo{Rodrigues \emph{et al.}}{RODRIGUES \emph{et al.}}{2012}
+{RODRIGUES, R.~P. \emph{et al.} Estrat{\'e}gias de triagem virtual no
+  planejamento de f{\'a}rmacos.
+\textbf{Revista Virtual de Qu{\'\i}mica}, v.~4, n.~6, p. 739--776, 2012.}
+
+\bibitem[Singh 2004]{singh2004reasoning}
+\abntrefinfo{Singh}{SINGH}{2004}
+{SINGH, R. Reasoning about molecular similarity and properties. In:  IEEE.
+  \textbf{Computational Systems Bioinformatics Conference, 2004. CSB 2004.
+  Proceedings. 2004 IEEE}. [S.l.], 2004. p. 266--277.}
 
 \bibitem[TeX-BR 2009]{TeX-Br2009}
 \abntrefinfo{TeX-BR}{TEX-BR}{2009}
