@@ -21,6 +21,11 @@ Dispon{\'\i}vel em: $<$http://sourceforge.net/apps/
 {CTAN. \textbf{The comprehensive \TeX\ archive network}. 2009.
 Dispon{\'\i}vel em: $<$http://www.ctan. org$>$. Acesso em: 8 nov. de 2011.}
 
+\bibitem[Devillers 1996]{devillers1996}
+\abntrefinfo{Devillers}{DEVILLERS}{1996}
+{DEVILLERS, J. \textbf{Neural networks in QSAR and drug design}. [S.l.]:
+  Academic Press, 1996.}
+
 \bibitem[Goossens \emph{et al.} 2007]{Goossens2007}
 \abntrefinfo{Goossens \emph{et al.}}{GOOSSENS \emph{et al.}}{2007}
 {GOOSSENS, M. \emph{et al.} \textbf{The \LaTeX\ graphics companion}. 2. ed.
@@ -38,6 +43,12 @@ Dispon{\'\i}vel em: $<$http://www.ctan. org$>$. Acesso em: 8 nov. de 2011.}
 {JABREF. \textbf{JabRef reference manager}. 2009.
 Dispon{\'\i}vel em: $<$http://jabref.sourceforge.net$>$. Acesso em: 8 nov.
   2011.}
+
+\bibitem[Koes \& Camacho 2011]{koes2011pharmer}
+\abntrefinfo{Koes \& Camacho}{KOES; CAMACHO}{2011}
+{KOES, D.~R.; CAMACHO, C.~J. Pharmer: efficient and exact pharmacophore search.
+\textbf{Journal of chemical information and modeling}, ACS Publications, v.~51,
+  n.~6, p. 1307--1314, 2011.}
 
 \bibitem[Kopka \& Daly 2003]{Kopka2003}
 \abntrefinfo{Kopka \& Daly}{KOPKA; DALY}{2003}
@@ -71,6 +82,13 @@ Dispon{\'\i}vel em: $<$http://jabref.sourceforge.net$>$. Acesso em: 8 nov.
 {MENDELEY. \textbf{Mendeley: \normalfont academic software for research
   papers}. 2009.
 Dispon{\'\i}vel em: $<$http://www.mendeley.com$>$. Acesso em: 8 nov. de 2011.}
+
+\bibitem[Mestres, Rohrer \& Maggiora 1997]{mestres1997mimic}
+\abntrefinfo{Mestres, Rohrer \& Maggiora}{MESTRES; ROHRER; MAGGIORA}{1997}
+{MESTRES, J.; ROHRER, D.~C.; MAGGIORA, G.~M. Mimic: A molecular-field matching
+  program. exploiting applicability of molecular similarity approaches.
+\textbf{Journal of Computational Chemistry}, Wiley Online Library, v.~18, n.~7,
+  p. 934--954, 1997.}
 
 \bibitem[MiKTeX 2009]{MiKTeX2009}
 \abntrefinfo{MiKTeX}{MIKTEX}{2009}
@@ -110,6 +128,14 @@ Dispon{\'\i}vel em: $<$http://www.tex-br.org/index.php$>$. Acesso em: 8 nov.
 {TEXNICCENTER. \textbf{\TeX nicCenter: \normalfont the center of your \LaTeX\
   universe}. 2009.
 Dispon{\'\i}vel em: $<$http://www.texniccenter.org$>$. Acesso em: 8 nov. 2011.}
+
+\bibitem[Todeschini \emph{et al.} 2008]{todeschini2008handbook}
+\abntrefinfo{Todeschini \emph{et al.}}{TODESCHINI \emph{et al.}}{2008}
+{TODESCHINI, R. \emph{et al.} \textbf{Handbook of Molecular Descriptors}.
+  Wiley, 2008.  (Methods and Principles in Medicinal Chemistry).
+ISBN 9783527613113. Dispon{\'\i}vel em:
+  $<$https://books.google.com.br/books?id=PCXXdjUJiLoC$>$. Acesso em: 24 Nov.
+  2016.}
 
 \bibitem[Wikibooks 2009]{Wikibooks2009}
 \abntrefinfo{Wikibooks}{WIKIBOOKS}{2009}

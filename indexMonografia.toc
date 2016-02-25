@@ -10,7 +10,8 @@
 \contentsline {section}{\numberline {2.4}\MakeUppercase {Siglas e s\'imbolos}}{14}
 \contentsline {chapter}{\numberline {3}\MakeUppercase {Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}}{15}
 \contentsline {section}{\numberline {3.1}\MakeUppercase {FERRAMENTAS PARA COMPUTA\IeC {\c C}\IeC {\~A}O DE SIMILARIDADE MOLECULAR}}{16}
-\contentsline {chapter}{\numberline {4}\MakeUppercase {Metodologia}}{17}
-\contentsline {chapter}{\numberline {5}\MakeUppercase {Resultados}}{18}
-\contentsline {chapter}{\numberline {6}\MakeUppercase {Considera\IeC {\c c}\IeC {\~o}es Finais}}{19}
-\contentsline {chapter}{REFER\^ENCIAS}{20}
+\contentsline {section}{\numberline {3.2}\MakeUppercase {DESCRITORES MOLECULARES}}{18}
+\contentsline {chapter}{\numberline {4}\MakeUppercase {Metodologia}}{20}
+\contentsline {chapter}{\numberline {5}\MakeUppercase {Resultados}}{21}
+\contentsline {chapter}{\numberline {6}\MakeUppercase {Considera\IeC {\c c}\IeC {\~o}es Finais}}{22}
+\contentsline {chapter}{REFER\^ENCIAS}{23}

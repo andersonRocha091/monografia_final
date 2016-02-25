@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.2.20)  23 FEB 2016 23:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.2.20)  24 FEB 2016 22:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -993,14 +993,14 @@ o-ritmo para
  []
 
 [11]
-LaTeX Font Info:    Try loading font information for OMS+phv on input line 21.
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 23.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsphv.fd
 File: omsphv.fd 
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 21.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 23.
 
-Underfull \hbox (badness 3815) in paragraph at lines 22--23
+Underfull \hbox (badness 3815) in paragraph at lines 24--25
 []\T1/phv/m/n/12 Implementar ro-tina para re-a-li-za-ção de tri-a-gem de mo-lé-
 cu-las com um
  []
@@ -1048,36 +1048,48 @@ Underfull \hbox (badness 1237) in paragraph at lines 14--15
 -te-mas com-pu-ta-ci-o-nais
  []
 
+[16]
+Underfull \hbox (badness 2503) in paragraph at lines 20--21
+[]\T1/phv/m/n/12 Utilizando uma abor-da-gem para com-pu-ta-ção de si-mi-la-ri-d
+ade mo-le-cu-lar
+ []
+
+[17]
+Underfull \hbox (badness 1968) in paragraph at lines 24--25
+\T1/phv/m/n/12 com-pu-ta-ci-o-nais já exis-ten-tes (KOES; CA-MA-CHO, 2011). O m
+o-tivo para tal
+ []
+
 File: ./figuras/dummy.png Graphic file (type png)
 <use ./figuras/dummy.png>
-Package pdftex.def Info: ./figuras/dummy.png used on input line 21.
+Package pdftex.def Info: ./figuras/dummy.png used on input line 40.
 (pdftex.def)             Requested size: 91.04742pt x 91.04579pt.
-) (./conteudo/metodologia.tex [16]
+) (./conteudo/metodologia.tex [18] [19]
 Cap\'{\i }tulo 4.
-) (./conteudo/resultados.tex [17
+) (./conteudo/resultados.tex [20
 
 ]
 Cap\'{\i }tulo 5.
-) (./conteudo/conclusao.tex [18
+) (./conteudo/conclusao.tex [21
 
 ]
 Cap\'{\i }tulo 6.
-) (./indexMonografia.bbl [19
+) (./indexMonografia.bbl [22
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <9> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 16.
+ [23
 
-Underfull \hbox (badness 1715) in paragraph at lines 104--107
+]
+Underfull \hbox (badness 1715) in paragraph at lines 122--125
 []\T1/phv/m/n/12 TEX-BR. \T1/phv/b/n/12 Co-mu-ni-dade T[]X-Br\T1/phv/m/n/12 . 2
 009. Dis-po-ní-vel em: 
  []
 
-[20
-
-]) 
+) 
 AED: lastpage setting LastPage
-[21]
+[24]
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
@@ -1088,13 +1100,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10941 strings out of 494955
- 189663 string characters out of 6179474
- 233167 words of memory out of 5000000
- 13881 multiletter control sequences out of 15000+600000
+ 10961 strings out of 494955
+ 190141 string characters out of 6179474
+ 233456 words of memory out of 5000000
+ 13901 multiletter control sequences out of 15000+600000
  66582 words of font info for 119 fonts, out of 8000000 for 9000
  38 hyphenation exceptions out of 8191
- 40i,10n,43p,10414b,331s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,10n,43p,10414b,328s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc} </home/anderson/.
 texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/f
@@ -1107,10 +1119,10 @@ hare/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on indexMonografia.pdf (23 pages, 303396 bytes).
+Output written on indexMonografia.pdf (26 pages, 309345 bytes).
 PDF statistics:
- 151 PDF objects out of 1000 (max. 8388607)
- 91 compressed objects within 1 object stream
+ 161 PDF objects out of 1000 (max. 8388607)
+ 98 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
