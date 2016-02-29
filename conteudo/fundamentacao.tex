@@ -31,6 +31,11 @@ similaridade, pois o descritor molecular é considerado um fator determinante da
 aplicada para cálculo da similaridade estrutural. Nesta seção será apresentado alguns
 descritores utilizados por sistemas que calculam similaridade entre moléculas\apud{todeschini2008handbook}{koes2011pharmer}.
 
+\subsection{Descritores Farmacofóricos 3D}
+Os descritores farmacofóricos tridimensionais quantificam propriedades e as distâncias entre  farmacóforos biológicos importantes para a interação entre o ligante e receptor  \cite{bajorath2004chemoinformatics}. Dentre essas propriedades de interesse de pesquisadores podemos citar: grupos funcionais ou características chaves em determinada orientação, doadores/receptores de ligações de hidrogênio, partes de uma molécula, entre outras. Normalmente, um descritor farmacofórico 3D são compostos basicamente por 3 ou 4 características, e de 3 a 6 distancias entre elas. 
+Quando a conformação biológica entre o ligante e receptor é conhecida, é possível identificar     
+que características/grupos funcionais são cruciais para ocorrencia dessa ligação. Caso contrário, através de técnicas de triagem virtual (\textit{virtual screening}) pesquisadores podem identificar moléculas que contenham esses grupos funcionais/caracteristicas, ou até mesmo projetar um descritor farmacofórico 3D \cite{bajorath2004chemoinformatics}. 
+A aplicação de ferramentas computacionais na comparação de moléculas representadas como descritores farmacofóricos 3D pode ser realizada através do conceito de similaridade molecular aplicando uma transformação nesse descritor em uma \textit{figerprint} (Sequência de bits única para uma molécula), onde bits definidos como '1' simbolizam a presença de uma determinada caracteristica ou grupo funcional, e bits definidos como '0' a ausência de tal estrutura na molécula. Sendo assim, ferramentas computacionais podem calcular a similaridade entre duas moléculas gerando figerprints para cada um dos descritores farmacofóricos 3D e aplicando alguma das métricas já conhecidas para calculo de similaridade entre figerprints, como por exemplo coeficiente de Tanimoto, e coeficiente de Tversky, ambos serão descritos com maiores detalhes em sessões posteriores.          
 
      
 

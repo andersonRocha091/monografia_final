@@ -11,7 +11,8 @@
 \contentsline {chapter}{\numberline {3}\MakeUppercase {Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}}{15}
 \contentsline {section}{\numberline {3.1}\MakeUppercase {FERRAMENTAS PARA COMPUTA\IeC {\c C}\IeC {\~A}O DE SIMILARIDADE MOLECULAR}}{16}
 \contentsline {section}{\numberline {3.2}\MakeUppercase {DESCRITORES MOLECULARES}}{19}
-\contentsline {chapter}{\numberline {4}\MakeUppercase {Metodologia}}{20}
-\contentsline {chapter}{\numberline {5}\MakeUppercase {Resultados}}{21}
-\contentsline {chapter}{\numberline {6}\MakeUppercase {Considera\IeC {\c c}\IeC {\~o}es Finais}}{22}
-\contentsline {chapter}{REFER\^ENCIAS}{23}
+\contentsline {subsection}{\numberline {3.2.1}\MakeUppercase {Descritores Farmacof\IeC {\'o}ricos 3D}}{19}
+\contentsline {chapter}{\numberline {4}\MakeUppercase {Metodologia}}{21}
+\contentsline {chapter}{\numberline {5}\MakeUppercase {Resultados}}{22}
+\contentsline {chapter}{\numberline {6}\MakeUppercase {Considera\IeC {\c c}\IeC {\~o}es Finais}}{23}
+\contentsline {chapter}{REFER\^ENCIAS}{24}
