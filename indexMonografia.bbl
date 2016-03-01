@@ -148,4 +148,11 @@ ISBN 9783527613113. Dispon{\'\i}vel em:
 Dispon{\'\i}vel em: $<$http://en.wikibooks.org/wiki/LaTeX$>$. Acesso em: 8 nov.
   2011.}
 
+\bibitem[Xue \& Bajorath 2000]{xue2000molecular}
+\abntrefinfo{Xue \& Bajorath}{XUE; BAJORATH}{2000}
+{XUE, L.; BAJORATH, J. Molecular descriptors in chemoinformatics, computational
+  combinatorial chemistry, and virtual screening.
+\textbf{Combinatorial Chemistry \& High Throughput Screening}, Bentham Science
+  Publishers, v.~3, n.~5, p. 363--372, 2000.}
+
 \end{thebibliography}
