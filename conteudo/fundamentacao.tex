@@ -45,9 +45,16 @@ Quando a conformação biológica entre o ligante e receptor é conhecida, é po
 que características/grupos funcionais são cruciais para ocorrencia dessa ligação. Caso contrário, através de técnicas de triagem virtual (\textit{virtual screening}) pesquisadores podem identificar moléculas que contenham esses grupos funcionais/caracteristicas, ou até mesmo projetar um descritor farmacofórico 3D \cite{bajorath2004chemoinformatics}. 
 A aplicação de ferramentas computacionais na comparação de moléculas representadas como descritores farmacofóricos 3D pode ser realizada através do conceito de similaridade molecular aplicando uma transformação nesse descritor em uma \textit{figerprint} (Sequência de bits única para uma molécula), onde bits definidos como '1' simbolizam a presença de uma determinada caracteristica ou grupo funcional, e bits definidos como '0' a ausência de tal estrutura na molécula. Sendo assim, ferramentas computacionais podem calcular a similaridade entre duas moléculas gerando figerprints para cada um dos descritores farmacofóricos 3D e aplicando alguma das métricas já conhecidas para calculo de similaridade entre figerprints, como por exemplo coeficiente de Tanimoto, e coeficiente de Tversky, ambos serão descritos com maiores detalhes em sessões posteriores.          
 
+\subsection{SMILES (Simplified Molecular-Input Line-Entry System)}
      
+O SMILES surgiu como descritor molecular para resolver o problema de 
+armazenamento de estruturas moleculares em um computador, assim como facilitar a 
+manipulação dessas estruturas moleculares por softwares, e também facilitar buscas por 
+estruturas moleculares na internet \cite{kumar2012}. Ainda segundo \cite{kumar2012} é demonstrado que pode-se considerar o SMILE como uma linguagem que permite ao 
+pesquisador representar uma molécula através de uma notação linear padronizada, que muito 
+se assemelha à notação utilizada comumente no dia-a-dia dos mesmos.
 
- 
+Em uma representação de molécula em formato de SMILES cada átomo é representado por seu símbolo atômico, onde os hidrogênios são omitidos \cite{anderson1987smiles}. Os átomos vizinhos, são representados próximos entre si, e em caso de ligação dupla ou tripla, entre os átomos unidos por tais ligações aparecerão respectivamente os símbolos = e \#. É importante salientar também que ramificações são representadas por parêntesis, e os anéis aromáticos pela alocação de dígitos entre os dois átomos que fecham o átomo.
 
 \begin{figure}[!htb]
 	\centering
@@ -56,3 +63,19 @@ A aplicação de ferramentas computacionais na comparação de moléculas repres
 	\fonte{ABNTEX, 2009\nocite{abnTeX2009}}
 	\label{fig:dummy}
 \end{figure}
+
+O formato do SMILE gerado para a molécula não necessariamente é único, existem
+outras representações possíveis, dependendo da estratégia de notação adotada pelo 
+pesquisador. Dessa forma é muito comum, para facilitar a busca em bancos de dados, a 
+utilização de um formato SMILE canônico, ou seja, que padroniza qualquer SMILE para um 
+formato único, o que facilita a manipulação de qualquer molécula, sem aumentar a 
+complexidade dessa operação para o pesquisador Kumar (KUMAR, 2012).
+
+Este descritor molecular, além de necessitar de recursos computacionais relativamente 
+baixos para representação de uma molécula computacionalmente, devido sua estrutura é 
+bastante utilizado no desenvolvimento de fármacos, principalmente nas atividades que 
+envolvem a busca de estruturas similares, com uma desejada atividade biológica, pois por ser 
+um descritor molecular linear, ele permite a conversão de uma comparação de moléculas 
+realizadas por exemplos em uma forma tridimensional, em uma comparação linear de cadeias 
+de caracteres, de mais fácil manipulação em um computador. 
+

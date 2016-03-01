@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.2.20)  29 FEB 2016 21:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.2.20)  29 FEB 2016 22:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1085,36 +1085,47 @@ n-ti-fi-cam pro-pri-e-da-des e
  []
 
 [20]
+Underfull \hbox (badness 2005) in paragraph at lines 57--58
+\T1/phv/m/n/12 é re-pre-sen-tado por seu sím-bolo atô-mico, onde os hi-dro-gê-n
+ios são omi-ti-dos
+ []
+
 File: ./figuras/dummy.png Graphic file (type png)
- <use ./figuras/dummy.png>
-Package pdftex.def Info: ./figuras/dummy.png used on input line 55.
+<use ./figuras/dummy.png>
+Package pdftex.def Info: ./figuras/dummy.png used on input line 62.
 (pdftex.def)             Requested size: 91.04742pt x 91.04579pt.
-) (./conteudo/metodologia.tex [21]
+ [21]
+Underfull \hbox (badness 3343) in paragraph at lines 74--81
+\T1/phv/m/n/12 de-vido sua es-tru-tura é bas-tante uti-li-zado no de-sen-vol-vi
+-mento de fár-ma-cos,
+ []
+
+) (./conteudo/metodologia.tex [22]
 Cap\'{\i }tulo 4.
-) (./conteudo/resultados.tex [22
+) (./conteudo/resultados.tex [23
 
 ]
 Cap\'{\i }tulo 5.
-) (./conteudo/conclusao.tex [23
+) (./conteudo/conclusao.tex [24
 
 ]
 Cap\'{\i }tulo 6.
-) (./indexMonografia.bbl [24
+) (./indexMonografia.bbl [25
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <9> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 21.
- [25
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 27.
+ [26
 
 ]
-Underfull \hbox (badness 1715) in paragraph at lines 127--130
+Underfull \hbox (badness 1715) in paragraph at lines 133--136
 []\T1/phv/m/n/12 TEX-BR. \T1/phv/b/n/12 Co-mu-ni-dade T[]X-Br\T1/phv/m/n/12 . 2
 009. Dis-po-ní-vel em: 
  []
 
 ) 
 AED: lastpage setting LastPage
-[26]
+[27]
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
@@ -1125,13 +1136,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10971 strings out of 494955
- 190435 string characters out of 6179474
- 233563 words of memory out of 5000000
- 13911 multiletter control sequences out of 15000+600000
+ 10976 strings out of 494955
+ 190562 string characters out of 6179474
+ 233664 words of memory out of 5000000
+ 13916 multiletter control sequences out of 15000+600000
  66582 words of font info for 119 fonts, out of 8000000 for 9000
  38 hyphenation exceptions out of 8191
- 40i,10n,43p,10414b,328s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,10n,43p,10414b,330s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc} </home/anderson/.
 texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/f
@@ -1144,10 +1155,10 @@ hare/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on indexMonografia.pdf (28 pages, 319426 bytes).
+Output written on indexMonografia.pdf (29 pages, 321997 bytes).
 PDF statistics:
- 168 PDF objects out of 1000 (max. 8388607)
- 102 compressed objects within 2 object streams
+ 171 PDF objects out of 1000 (max. 8388607)
+ 104 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
