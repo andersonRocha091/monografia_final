@@ -14,7 +14,12 @@
 \contentsline {subsection}{\numberline {3.2.1}\MakeUppercase {FingerPrints}}{19}
 \contentsline {subsection}{\numberline {3.2.2}\MakeUppercase {Descritores Farmacof\IeC {\'o}ricos 3D}}{20}
 \contentsline {subsection}{\numberline {3.2.3}\MakeUppercase {SMILES (Simplified Molecular-Input Line-Entry System)}}{21}
-\contentsline {chapter}{\numberline {4}\MakeUppercase {Metodologia}}{23}
-\contentsline {chapter}{\numberline {5}\MakeUppercase {Resultados}}{24}
-\contentsline {chapter}{\numberline {6}\MakeUppercase {Considera\IeC {\c c}\IeC {\~o}es Finais}}{25}
-\contentsline {chapter}{REFER\^ENCIAS}{26}
+\contentsline {section}{\numberline {3.3}\MakeUppercase {Algor\IeC {\'\i }tmos e M\IeC {\'e}tricas para Computa\IeC {\c c}\IeC {\~a}o de Similaridade Molecular}}{22}
+\contentsline {subsection}{\numberline {3.3.1}\MakeUppercase {Coeficiente de Tanimoto}}{22}
+\contentsline {subsubsection}{\numberline {3.3.1.1}\MakeUppercase {Aplica\IeC {\c c}\IeC {\~a}o do Coeficiente de Tanimoto na Compara\IeC {\c c}\IeC {\~a}o de Fingerprints}}{23}
+\contentsline {subsection}{\numberline {3.3.2}\MakeUppercase {Lingo}}{24}
+\contentsline {subsection}{\numberline {3.3.3}\MakeUppercase {Localized Co-occurrence Model (LCM)}}{25}
+\contentsline {chapter}{\numberline {4}\MakeUppercase {Metodologia}}{27}
+\contentsline {chapter}{\numberline {5}\MakeUppercase {Resultados}}{28}
+\contentsline {chapter}{\numberline {6}\MakeUppercase {Considera\IeC {\c c}\IeC {\~o}es Finais}}{29}
+\contentsline {chapter}{REFER\^ENCIAS}{30}

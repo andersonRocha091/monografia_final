@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/dev/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: indexMonografia.aux
 The style file: abnt-alf.bst
@@ -12,6 +12,8 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: abnt-options.bib
 Database file #2: abnt-uefs.bib
+Warning--entry type for "Dogra2007" isn't style-file defined
+--line 57 of file abnt-uefs.bib
 Warning--I didn't find a database entry for "call=authordata"
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -24,45 +26,45 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de duvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 33 entries,
+You've used 38 entries,
             6522 wiz_defined-function locations,
-            1335 strings with 13466 characters,
-and the built_in function-call counts, 23516 in all, are:
-= -- 1836
-> -- 741
-< -- 39
-+ -- 320
-- -- 227
-* -- 1585
-:= -- 3106
-add.period$ -- 107
-call.type$ -- 37
-change.case$ -- 274
-chr.to.int$ -- 73
-cite$ -- 27
-duplicate$ -- 1085
-empty$ -- 2034
-format.name$ -- 1077
-if$ -- 5764
+            1360 strings with 14275 characters,
+and the built_in function-call counts, 28145 in all, are:
+= -- 2172
+> -- 928
+< -- 55
++ -- 387
+- -- 282
+* -- 1950
+:= -- 3688
+add.period$ -- 123
+call.type$ -- 42
+change.case$ -- 332
+chr.to.int$ -- 90
+cite$ -- 32
+duplicate$ -- 1317
+empty$ -- 2354
+format.name$ -- 1333
+if$ -- 6856
 int.to.chr$ -- 5
 int.to.str$ -- 3
-missing$ -- 562
-newline$ -- 133
-num.names$ -- 135
-pop$ -- 666
+missing$ -- 656
+newline$ -- 158
+num.names$ -- 160
+pop$ -- 782
 preamble$ -- 1
-purify$ -- 121
+purify$ -- 142
 quote$ -- 0
-skip$ -- 1550
+skip$ -- 1787
 stack$ -- 1
-substring$ -- 832
-swap$ -- 527
-text.length$ -- 25
+substring$ -- 1058
+swap$ -- 663
+text.length$ -- 37
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 189
+while$ -- 231
 width$ -- 0
-write$ -- 434
-(There was 1 warning)
+write$ -- 520
+(There were 2 warnings)

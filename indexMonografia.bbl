@@ -37,10 +37,22 @@ Dispon{\'\i}vel em: $<$http://www.ctan. org$>$. Acesso em: 8 nov. de 2011.}
 {DEVILLERS, J. \textbf{Neural networks in QSAR and drug design}. [S.l.]:
   Academic Press, 1996.}
 
+\bibitem[Dogra 2007]{Dogra2007}
+\abntrefinfo{Dogra}{DOGRA}{2007}
+{DOGRA, S.~K. \textbf{Script for computing Tanimoto coefficient}. jan 2007.
+Dispon{\'\i}vel em: $<$http://www.qsarworld.com/virtual-workshop.php$>$.}
+
 \bibitem[Goossens \emph{et al.} 2007]{Goossens2007}
 \abntrefinfo{Goossens \emph{et al.}}{GOOSSENS \emph{et al.}}{2007}
 {GOOSSENS, M. \emph{et al.} \textbf{The \LaTeX\ graphics companion}. 2. ed.
   Boston: Addison-Wesley, 2007.}
+
+\bibitem[Huang, Shen \& Zhou 2008]{huang2008localized}
+\abntrefinfo{Huang, Shen \& Zhou}{HUANG; SHEN; ZHOU}{2008}
+{HUANG, Z.; SHEN, H.~T.; ZHOU, X. Localized co-occurrence model for fast
+  approximate search in 3d structure databases.
+\textbf{Knowledge and Data Engineering, IEEE Transactions on}, IEEE, v.~20,
+  n.~4, p. 519--531, 2008.}
 
 \bibitem[Irwin \& Shoichet 2005]{irwin2005zinc}
 \abntrefinfo{Irwin \& Shoichet}{IRWIN; SHOICHET}{2005}
@@ -87,6 +99,13 @@ Dispon{\'\i}vel em: $<$http://jabref.sourceforge.net$>$. Acesso em: 8 nov.
 \abntrefinfo{Li \emph{et al.}}{LI \emph{et al.}}{2010}
 {LI, Q. \emph{et al.} Pubchem as a public resource for drug discovery.
 \textbf{Drug discovery today}, Elsevier, v.~15, n.~23, p. 1052--1057, 2010.}
+
+\bibitem[Ma, Wang \& Xie 2011]{machao2011gpu}
+\abntrefinfo{Ma, Wang \& Xie}{MA; WANG; XIE}{2011}
+{MA, C.; WANG, L.; XIE, X.-Q. Gpu accelerated chemical similarity calculation
+  for compound library comparison.
+\textbf{Journal of chemical information and modeling}, ACS Publications, v.~51,
+  n.~7, p. 1521--1527, 2011.}
 
 \bibitem[Mendeley 2009]{Mendeley2009}
 \abntrefinfo{Mendeley}{MENDELEY}{2009}
@@ -148,11 +167,24 @@ ISBN 9783527613113. Dispon{\'\i}vel em:
   $<$https://books.google.com.br/books?id=PCXXdjUJiLoC$>$. Acesso em: 24 Nov.
   2016.}
 
+\bibitem[Vidal, Thormann \& Pons 2005]{vidal2005lingo}
+\abntrefinfo{Vidal, Thormann \& Pons}{VIDAL; THORMANN; PONS}{2005}
+{VIDAL, D.; THORMANN, M.; PONS, M. Lingo, an efficient holographic text based
+  method to calculate biophysical properties and intermolecular similarities.
+\textbf{Journal of chemical information and modeling}, ACS Publications, v.~45,
+  n.~2, p. 386--393, 2005.}
+
 \bibitem[Wikibooks 2009]{Wikibooks2009}
 \abntrefinfo{Wikibooks}{WIKIBOOKS}{2009}
 {WIKIBOOKS. \textbf{\LaTeX}. 2009.
 Dispon{\'\i}vel em: $<$http://en.wikibooks.org/wiki/LaTeX$>$. Acesso em: 8 nov.
   2011.}
+
+\bibitem[Willett 2003]{willett2003similarity}
+\abntrefinfo{Willett}{WILLETT}{2003}
+{WILLETT, P. Similarity-based approaches to virtual screening.
+\textbf{Biochemical Society Transactions}, Portland Press Limited, v.~31, n.~3,
+  p. 603--606, 2003.}
 
 \bibitem[Xue \& Bajorath 2000]{xue2000molecular}
 \abntrefinfo{Xue \& Bajorath}{XUE; BAJORATH}{2000}
