@@ -1,12 +1,19 @@
 %---------- Segundo Capitulo ----------
-\chapter{Desenvolvimento}
-\label{chap:desenv}
+\chapter{O Sistema NatProDB}
+\label{chap:natprodb}
 
-A seguir ilustra-se a forma de incluir figuras, tabelas, equa\c{c}\~oes, siglas e s\'imbolos no documento, obtendo indexa\c{c}\~ao autom\'atica em suas respectivas listas. A numera\c{c}\~ao sequencial de figuras, tabelas e equa\c{c}\~oes ocorre de modo autom\'atico. Refer\^encias cruzadas s\~ao obtidas atrav\'es dos comandos {\ttfamily \textbackslash label\{\}} e {\ttfamily \textbackslash ref\{\}}. Por exemplo, n\~ao \'e necess\'ario saber que o n\'umero deste cap\'itulo \'e~\ref{chap:desenv} para colocar o seu n\'umero no texto. Isto facilita muito a inser\c{c}\~ao, remo\c{c}\~ao ou reloca\c{c}\~ao de elementos numerados no texto (fato corriqueiro na escrita e corre\c{c}\~ao de um documento acad\^emico) sem a necessidade de renumer\'a-los todos.
+O sistema de gerenciamento de banco de dados molecular (NatProDB) e análise de similaridade molecular proposto é constituído basicamente de dois módulos: 1- Gerenciamento de banco de dados moleculares, e 2- Triagem virtual de moléculas baseado no conceito de similaridade molécular. Para melhor compreensão do sistema, será explanado de forma separada cada um desses módulos. Embora essa metodologia utilizada induza intuitivamente que o sistema é heterogêneo, os módulos citados mais se completam, do que divergem, conforme será verificado em seções posteriores.
 
-\section{Figuras}
+\section{Gerenciamento de Bancos de Dados Moleculares}
 
-Na figura~\ref{fig:dummy} \'e apresentado um exemplo de gr\'afico flutuante. Esta figura aparece automaticamente na lista de figuras. Para uso avan\c{c}ado de gr\'aficos no \LaTeX, recomenda-se a consulta de literatura especializada~\cite{Goossens2007}.
+Uma das principais funcionalidades implementadas no NatProDB é a capacidade de permitir ao pesquisador a criação de sua própria base de dados molecular local, onde o mesmo pode cadastrar, remover, modificar, ou importar arquivos SMI de qualquer estrutura que deseje estudar, armazenando no banco além de propriedades intrísecas de cada molécula, a estrutura molecular do composto através do descritor molecular SMILE. Tal funcionalidade simplifica para o pesquisador o processo de catalogação e gerenciamento de suas moléculas de estudo, além de facilitar a manipulação dessas estruturas para realização de busca por estruturas similares.   
+Além de uma ferramenta para catalogação de estruturas, o sistema NatProDb implementa também um filtro para busca de estruturas baseado na regra de Lipinsky \cite{lipinski2012experimental}, que descreve valores limítrofes acerca de características físico-químicas para fármacos com perfil de biodisponibilidade por via oral, a saber: Massa Molecular $\leq$ 500,  \sigla{LopP}{Coeficiente de Partição} $\leq$ 5, \sigla{HBA}{Hydrogen Bond Acceptors} $\leq$ 10, \sigla{HBD}{Hydrogen Bond Donor} $\leq$ 5.
+
+É importante salientar que o sistema NatProDB não realiza a computação dos valores de cada uma das propriedades citadas anteriormente para cada molécula presente no banco, tais dados são inseridos e/ou importados pelo próprio pesquisador na efetivação de um cadastro de molécula, ou mesmo através de alteração dos dados da mesma.
+
+\section{Triagem Virtual de Moléculas Baseado no Conceito de Similaridade Molécular}
+
+         
 
 \begin{figure}[!htb]
 	\centering

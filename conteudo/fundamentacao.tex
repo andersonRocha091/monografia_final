@@ -123,8 +123,20 @@ Apesar foco central do trabalho apresentado por \cite{machao2011gpu}, não ser a
 obra, ilustra o procedimento de comparação entre fingerprints, exemplificando desde a 
 contagem de estruturas (características) na fingerprint \textit{a} , e na fingerprint \textit{b}, assim como a intersecção entre as características de ambas estruturas ($a\bigcap b$), e por fim a computação do coeficiente de Tanimoto. De acordo com \cite{Dogra2007}, o resultado do coeficiente de Tanimoto (0,5) obtido na figura (\ref{fig:comparafingerprint})  indica baixa similaridade entre as moléculas a e b.
 
-\subsection{Lingo}
+\subsection{Coeficiente de Tversky}
+O coeficiente de Tversky pode ser considerado como uma metrica generalizada do coeficiente de Tanimoto \cite{swamidass2007bounds}. Assim como o coeficiente de Tanimoto, o coeficiente de Tversky é uma métrica bastante utilizada para obtenção de índice de similaridade entre moléculas representadas sob descritores moleculares 2D \cite{bajorath2004chemoinformatics}.
 
+Enquanto o coeficiente de Tanimoto calcula a similaridade entre duas moléculas através da taxa de bits comuns (configurados como 1) entre suas respectivas fingerprints   e o número total de bits configurados como 1 em cada molécula como foi observado na figura(\ref{fig:comparafingerprint}), por sua vez o coeficiente de Tversky generaliza a equação (\ref{eq:Tanimoto}) através da introdução dos parametros $\alpha,\beta$:
+
+
+\begin{equation}
+S_{\alpha,\beta}(A,B) =\frac{N_{AB}}{\alpha*N_{A}+\beta*N_{B}+(1-\alpha-\beta)*N_{AB}}
+\label{eq:Tversky}
+\end{equation}
+
+Conforme podemos observar na equação (\ref{eq:Tversky}),  Quando $\alpha$ = $\beta$ = 1, esta equação se reduz a equação (\ref{eq:Tanimoto}). A introdução desses parâmetros garante ao coeficiente de Tversky uma maior flexibilidade na comparação de similaridade entre duas moléculas uma vez que, os valores de $\alpha$ e $\beta$ permite a aplicação determinadas ponderações na comparação de fingerprints, atribuindo um maior peso a determinadas características presentes na molécula A em detrimento da molécula B, ou vice-versa. Tal característica é importante para buscas de superestruturas e subestruturas de uma molécula, uma vez que um maior peso atribuido a $\alpha$ implica no direcionamento do cálculo de similaridade para superestruturas da molécula A \cite{swamidass2007bounds}. Por outro lado, um maior valor de $\beta$, direciona o cálculo de similaridade para obteção de subestruturas de A, considerando que A é a molécula de entrada no sistema para a qual serão triadas no banco de moléculas as estruturas similares.  
+
+\subsection{LINGO}
 O método proposto por \cite{vidal2005lingo} denominado LINGO realiza a computação da similaridade entre moléculas através da conversão dos SMILES de cada molécula (descritor molecular) em um conjunto de substrings sobrepostas de tamanho definido (o autor sugere tamanho 4 para melhores resultados). Desta forma evita-se a manipulação de estruturas tridimensionais, e de grafos, que são mais complexos para se tratar computacionalmente.
 
 Para gerar cada subestrutura do conjunto de substrings a ser utilizado, é necessário a
@@ -171,7 +183,7 @@ possíveis, o algoritmo verifica a co-ocorrência das relações das Unit Struct
 
 Por fim este algoritmo computa a probabilidade de co-ocorrência para cada
 combinação de pares de estados, gerando para cada molécula um LCM. A similaridade entre 
-duas moléculas é determinada pela comparação dos LCM deLCM de cada uma delas, e 
+duas moléculas é determinada pela comparação dos LCM de cada uma delas, e 
 verificando o grau de semelhança entre as representações das moléculas em forma de LCM, 
 quanto mais parecidos os LCMs maior a similaridade entre as moléculas, em contrapartida 
 quanto menor a semelhança entre os mesmos, menor a similaridade entre as moléculas.

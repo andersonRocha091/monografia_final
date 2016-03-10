@@ -42,11 +42,6 @@ Dispon{\'\i}vel em: $<$http://www.ctan. org$>$. Acesso em: 8 nov. de 2011.}
 {DOGRA, S.~K. \textbf{Script for computing Tanimoto coefficient}. jan 2007.
 Dispon{\'\i}vel em: $<$http://www.qsarworld.com/virtual-workshop.php$>$.}
 
-\bibitem[Goossens \emph{et al.} 2007]{Goossens2007}
-\abntrefinfo{Goossens \emph{et al.}}{GOOSSENS \emph{et al.}}{2007}
-{GOOSSENS, M. \emph{et al.} \textbf{The \LaTeX\ graphics companion}. 2. ed.
-  Boston: Addison-Wesley, 2007.}
-
 \bibitem[Huang, Shen \& Zhou 2008]{huang2008localized}
 \abntrefinfo{Huang, Shen \& Zhou}{HUANG; SHEN; ZHOU}{2008}
 {HUANG, Z.; SHEN, H.~T.; ZHOU, X. Localized co-occurrence model for fast
@@ -100,6 +95,13 @@ Dispon{\'\i}vel em: $<$http://jabref.sourceforge.net$>$. Acesso em: 8 nov.
 {LI, Q. \emph{et al.} Pubchem as a public resource for drug discovery.
 \textbf{Drug discovery today}, Elsevier, v.~15, n.~23, p. 1052--1057, 2010.}
 
+\bibitem[Lipinski \emph{et al.} 2012]{lipinski2012experimental}
+\abntrefinfo{Lipinski \emph{et al.}}{LIPINSKI \emph{et al.}}{2012}
+{LIPINSKI, C.~A. \emph{et al.} Experimental and computational approaches to
+  estimate solubility and permeability in drug discovery and development
+  settings.
+\textbf{Advanced drug delivery reviews}, Elsevier, v.~64, p. 4--17, 2012.}
+
 \bibitem[Ma, Wang \& Xie 2011]{machao2011gpu}
 \abntrefinfo{Ma, Wang \& Xie}{MA; WANG; XIE}{2011}
 {MA, C.; WANG, L.; XIE, X.-Q. Gpu accelerated chemical similarity calculation
@@ -146,6 +148,13 @@ Dispon{\'\i}vel em: $<$http://www.miktex.org$>$. Acesso em: 8 nov. de 2011.}
 {SINGH, R. Reasoning about molecular similarity and properties. In:  IEEE.
   \textbf{Computational Systems Bioinformatics Conference, 2004. CSB 2004.
   Proceedings. 2004 IEEE}. [S.l.], 2004. p. 266--277.}
+
+\bibitem[Swamidass \& Baldi 2007]{swamidass2007bounds}
+\abntrefinfo{Swamidass \& Baldi}{SWAMIDASS; BALDI}{2007}
+{SWAMIDASS, S.~J.; BALDI, P. Bounds and algorithms for fast exact searches of
+  chemical fingerprints in linear and sublinear time.
+\textbf{Journal of chemical information and modeling}, ACS Publications, v.~47,
+  n.~2, p. 302--317, 2007.}
 
 \bibitem[TeX-BR 2009]{TeX-Br2009}
 \abntrefinfo{TeX-BR}{TEX-BR}{2009}

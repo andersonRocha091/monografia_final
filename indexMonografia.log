@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.3.5)  6 MAR 2016 02:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.3.5)  9 MAR 2016 23:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1015,36 +1015,9 @@ Underfull \hbox (badness 3815) in paragraph at lines 24--25
 cu-las com um
  []
 
-) (./conteudo/desenvolvimento.tex [12]
+) (./conteudo/fundamentacao.tex [12]
 Cap\'{\i }tulo 2.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 5.
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 13.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 13.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 13.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 13.
-
-<./figuras/dummy.png, id=54, 301.125pt x 301.125pt>
-File: ./figuras/dummy.png Graphic file (type png)
- <use ./figuras/dummy.png>
-Package pdftex.def Info: ./figuras/dummy.png used on input line 14.
-(pdftex.def)             Requested size: 91.04742pt x 91.04579pt.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
-
 [13
-
- <./figuras/dummy.png>]) (./conteudo/fundamentacao.tex [14]
-Cap\'{\i }tulo 3.
-[15
 
 ]
 Underfull \hbox (badness 2277) in paragraph at lines 14--15
@@ -1058,13 +1031,13 @@ Underfull \hbox (badness 1237) in paragraph at lines 14--15
 -te-mas com-pu-ta-ci-o-nais
  []
 
-[16]
+[14]
 Underfull \hbox (badness 2503) in paragraph at lines 20--21
 []\T1/phv/m/n/12 Utilizando uma abor-da-gem para com-pu-ta-ção de si-mi-la-ri-d
 ade mo-le-cu-lar
  []
 
-[17]
+[15]
 Underfull \hbox (badness 1968) in paragraph at lines 24--25
 \T1/phv/m/n/12 com-pu-ta-ci-o-nais já exis-ten-tes (KOES; CA-MA-CHO, 2011). O m
 o-tivo para tal
@@ -1076,7 +1049,7 @@ Underfull \hbox (badness 1062) in paragraph at lines 29--33
 /12 et al.\T1/phv/m/n/12 , 2008). Para o pre-sente
  []
 
-[18]
+[16]
 Underfull \hbox (badness 2443) in paragraph at lines 35--36
 []\T1/phv/m/n/12 As Fin-ger-prints po-dem ser con-si-de-ra-das como um des-cri-
 tor mo-le-cu-lar
@@ -1088,25 +1061,33 @@ Underfull \hbox (badness 1389) in paragraph at lines 37--38
 o de 2048 bits para
  []
 
-[19]
+[17]
 Underfull \hbox (badness 1314) in paragraph at lines 43--47
 []\T1/phv/m/n/12 Os des-cri-to-res far-ma-co-fó-ri-cos tri-di-men-si-o-nais qua
 n-ti-fi-cam pro-pri-e-da-des e
  []
 
-[20]
+[18]
 Underfull \hbox (badness 2005) in paragraph at lines 56--57
 \T1/phv/m/n/12 é re-pre-sen-tado por seu sím-bolo atô-mico, onde os hi-dro-gê-n
 ios são omi-ti-dos
  []
 
-<./figuras/SMILE.jpg, id=86, 310.15875pt x 148.30406pt>
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 60.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
+<./figuras/SMILE.jpg, id=73, 310.15875pt x 148.30406pt>
 File: ./figuras/SMILE.jpg Graphic file (type jpg)
 
 <use ./figuras/SMILE.jpg>
 Package pdftex.def Info: ./figuras/SMILE.jpg used on input line 61.
 (pdftex.def)             Requested size: 227.62206pt x 108.83809pt.
- [21 <./figuras/SMILE.jpg>]
+ [19 <./figuras/SMILE.jpg>]
 Underfull \hbox (badness 3919) in paragraph at lines 81--81
 []\T1/phv/m/n/12 ALGORÍTMOS E MÉ-TRI-CAS PARA COM-PU-TA-ÇÃO DE SI-MI-LA-RI-DADE
 
@@ -1118,75 +1099,117 @@ Underfull \hbox (badness 1371) in paragraph at lines 83--85
 -pa-ra-ção se-le-ci-o-nado
  []
 
-[22] <./figuras/comparacao_fingerprints.jpg, id=93, 402.00188pt x 316.93407pt>
+[20] <./figuras/comparacao_fingerprints.jpg, id=80, 402.00188pt x 316.93407pt>
 File: ./figuras/comparacao_fingerprints.jpg Graphic file (type jpg)
 
 <use ./figuras/comparacao_fingerprints.jpg>
 Package pdftex.def Info: ./figuras/comparacao_fingerprints.jpg used on input li
 ne 117.
 (pdftex.def)             Requested size: 227.62206pt x 179.45496pt.
- [23]
-Underfull \hbox (badness 1895) in paragraph at lines 128--129
+ [21] [22 <./figuras/comparacao_fingerprints.jpg>]
+Underfull \hbox (badness 1466) in paragraph at lines 137--138
+\T1/phv/m/n/12 pre-sen-tes na mo-lé-cula A em de-tri-mento da mo-lé-cula B, ou 
+vice-versa. Tal
+ []
+
+
+Underfull \hbox (badness 1895) in paragraph at lines 140--141
 \T1/phv/m/n/12 so-bre-pos-tas de ta-ma-nho de-fi-nido (o au-tor su-gere ta-ma-n
 ho 4 para me-lho-res
  []
 
-[24 <./figuras/comparacao_fingerprints.jpg>] [25]
-Underfull \hbox (badness 1622) in paragraph at lines 172--178
+[23]
+Underfull \hbox (badness 1622) in paragraph at lines 184--190
 \T1/phv/m/n/12 com-bi-na-ção de pa-res de es-ta-dos, ge-rando para cada mo-lé-c
 ula um LCM. A
  []
 
-
-Underfull \hbox (badness 2689) in paragraph at lines 183--190
+[24]
+Underfull \hbox (badness 2689) in paragraph at lines 195--202
 []\T1/phv/m/n/12 Neste ca-pí-tulo fo-ram apre-sen-ta-das al-gu-mas das fer-ra-m
 en-tas uti-li-za-das
  []
 
 
-Underfull \hbox (badness 3199) in paragraph at lines 183--190
+Underfull \hbox (badness 3199) in paragraph at lines 195--202
 \T1/phv/m/n/12 por pes-qui-sa-do-res para com-pa-ra-ção de mo-lé-cu-las com de-
 ter-mi-na-dos graus
  []
 
 
-Underfull \hbox (badness 4072) in paragraph at lines 183--190
+Underfull \hbox (badness 4072) in paragraph at lines 195--202
 \T1/phv/m/n/12 de si-mi-la-ri-dade. Foi apre-sen-tado tam-bém al-gu-mas das pri
 n-ci-pais for-mas
  []
 
 
-Underfull \hbox (badness 1331) in paragraph at lines 183--190
+Underfull \hbox (badness 1331) in paragraph at lines 195--202
 \T1/phv/m/n/12 de re-pre-sen-ta-ção de uma mo-lé-cula com-pu-ta-ci-o-nal-mente 
 (de agora em di-ante
  []
 
-) (./conteudo/metodologia.tex [26]
+) (./conteudo/desenvolvimento.tex [25]
+Cap\'{\i }tulo 3.
+
+Underfull \hbox (badness 1122) in paragraph at lines 5--6
+[]\T1/phv/m/n/12 O sis-tema de ge-ren-ci-a-mento de banco de da-dos mo-le-cu-la
+r (Nat-ProDB)
+ []
+
+
+Underfull \hbox (badness 3471) in paragraph at lines 9--11
+[]\T1/phv/m/n/12 Uma das prin-ci-pais fun-ci-o-na-li-da-des im-ple-men-ta-das n
+o Nat-ProDB é a
+ []
+
+
+Underfull \hbox (badness 5446) in paragraph at lines 14--14
+[]\T1/phv/m/n/12 TRIAGEM VIR-TUAL DE MO-LÉ-CU-LAS BA-SE-ADO NO CON-CEITO DE
+ []
+
+<./figuras/dummy.png, id=102, 301.125pt x 301.125pt>
+File: ./figuras/dummy.png Graphic file (type png)
+ <use ./figuras/dummy.png>
+Package pdftex.def Info: ./figuras/dummy.png used on input line 21.
+(pdftex.def)             Requested size: 91.04742pt x 91.04579pt.
+
+[26
+
+]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 48.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 48.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 57.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+))
+(./conteudo/metodologia.tex [27 <./figuras/dummy.png>] [28]
 Cap\'{\i }tulo 4.
-) (./conteudo/resultados.tex [27
+) (./conteudo/resultados.tex [29
 
 ]
 Cap\'{\i }tulo 5.
-) (./conteudo/conclusao.tex [28
+) (./conteudo/conclusao.tex [30
 
 ]
 Cap\'{\i }tulo 6.
-) (./indexMonografia.bbl [29
+) (./indexMonografia.bbl [31
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <9> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 27.
- [30
+ [32
 
 ]
-Underfull \hbox (badness 1715) in paragraph at lines 152--155
+Underfull \hbox (badness 1715) in paragraph at lines 161--164
 []\T1/phv/m/n/12 TEX-BR. \T1/phv/b/n/12 Co-mu-ni-dade T[]X-Br\T1/phv/m/n/12 . 2
 009. Dis-po-ní-vel em: 
  []
 
-) 
+[33]) 
 AED: lastpage setting LastPage
-[31]
+[34]
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
@@ -1197,15 +1220,15 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 11625 strings out of 494935
- 204267 string characters out of 6179320
- 247366 words of memory out of 5000000
- 14576 multiletter control sequences out of 15000+600000
+ 11631 strings out of 494935
+ 204473 string characters out of 6179320
+ 247446 words of memory out of 5000000
+ 14582 multiletter control sequences out of 15000+600000
  68446 words of font info for 122 fonts, out of 8000000 for 9000
  38 hyphenation exceptions out of 8191
- 45i,10n,43p,10414b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc} </home/anderson/.
-texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk></usr/share/texlive/texmf-
+ 45i,10n,43p,10414b,329s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/anderson/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk>{/usr/
+share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
@@ -1216,10 +1239,10 @@ hare/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on indexMonografia.pdf (33 pages, 387957 bytes).
+Output written on indexMonografia.pdf (36 pages, 393305 bytes).
 PDF statistics:
- 186 PDF objects out of 1000 (max. 8388607)
- 113 compressed objects within 2 object streams
+ 194 PDF objects out of 1000 (max. 8388607)
+ 119 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
