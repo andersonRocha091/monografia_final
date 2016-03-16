@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.3.5)  16 MAR 2016 00:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.3.5)  16 MAR 2016 18:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -968,7 +968,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
 [8
 
-] (./indexMonografia.toc)
+] (./indexMonografia.toc
+Underfull \hbox (badness 1314) in paragraph at lines 20--20
+ [][] []\T1/phv/m/n/12 ALGORITMO E MÉ-TRICA PARA CÁL-CULO DE SI-MI-LA-RI-DADE N
+O 
+ []
+
+)
 \tf@toc=\write7
 \openout7 = `indexMonografia.toc'.
 
@@ -1155,9 +1161,9 @@ p-tado no Nat-ProDB.
 
 [26
 
-] [27]) (./conteudo/resultados.tex [28]
+] [27] [28]) (./conteudo/resultados.tex [29]
 Cap\'{\i }tulo 4.
-) (./conteudo/conclusao.tex [29
+) (./conteudo/conclusao.tex [30
 
 ]
 Cap\'{\i }tulo 5.
@@ -1165,9 +1171,9 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 3.
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 ))
-(./indexMonografia.bbl [30
+(./indexMonografia.bbl [31
 
-] [31
+] [32
 
 ]
 Underfull \hbox (badness 1715) in paragraph at lines 140--143
@@ -1179,7 +1185,7 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <9> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 174.
 ) 
 AED: lastpage setting LastPage
-[32]
+[33]
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
@@ -1205,10 +1211,10 @@ tic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/urw/times/utmri8a.pfb>
-Output written on indexMonografia.pdf (34 pages, 383183 bytes).
+Output written on indexMonografia.pdf (35 pages, 385580 bytes).
 PDF statistics:
- 182 PDF objects out of 1000 (max. 8388607)
- 114 compressed objects within 2 object streams
+ 185 PDF objects out of 1000 (max. 8388607)
+ 116 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

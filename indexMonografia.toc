@@ -19,6 +19,6 @@
 \contentsline {section}{\numberline {3.1}\MakeUppercase {FERRAMENTAS UTILIZADAS PARA IMPLEMENTA\IeC {\c C}\IeC {\~A}O}}{26}
 \contentsline {section}{\numberline {3.2}\MakeUppercase {ALGORITMO E M\IeC {\'E}TRICA PARA C\IeC {\'A}LCULO DE SIMILARIDADE NO NATPRODB}}{26}
 \contentsline {section}{\numberline {3.3}\MakeUppercase {TESTES}}{28}
-\contentsline {chapter}{\numberline {4}\MakeUppercase {Resultados}}{29}
-\contentsline {chapter}{\numberline {5}\MakeUppercase {Considera\IeC {\c c}\IeC {\~o}es Finais}}{30}
-\contentsline {chapter}{REFER\^ENCIAS}{31}
+\contentsline {chapter}{\numberline {4}\MakeUppercase {Resultados}}{30}
+\contentsline {chapter}{\numberline {5}\MakeUppercase {Considera\IeC {\c c}\IeC {\~o}es Finais}}{31}
+\contentsline {chapter}{REFER\^ENCIAS}{32}
