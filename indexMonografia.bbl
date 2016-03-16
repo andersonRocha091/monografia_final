@@ -22,11 +22,6 @@ Dispon{\'\i}vel em: $<$http://sourceforge.net/apps/
 {BAJORATH, J. \textbf{Chemoinformatics: concepts, methods, and tools for drug
   discovery}. [S.l.]: Springer Science \& Business Media, 2004.}
 
-\bibitem[Buerger 1989]{Buerger1989}
-\abntrefinfo{Buerger}{BUERGER}{1989}
-{BUERGER, D.~J. \textbf{\LaTeX\ for scientists and engineers}. Singapura:
-  McGraw-Hill, 1989.}
-
 \bibitem[CTAN 2009]{CTAN2009}
 \abntrefinfo{CTAN}{CTAN}{2009}
 {CTAN. \textbf{The comprehensive \TeX\ archive network}. 2009.
@@ -68,11 +63,6 @@ Dispon{\'\i}vel em: $<$http://jabref.sourceforge.net$>$. Acesso em: 8 nov.
 \textbf{Journal of chemical information and modeling}, ACS Publications, v.~51,
   n.~6, p. 1307--1314, 2011.}
 
-\bibitem[Kopka \& Daly 2003]{Kopka2003}
-\abntrefinfo{Kopka \& Daly}{KOPKA; DALY}{2003}
-{KOPKA, H.; DALY, P.~W. \textbf{Guide to \LaTeX}. 4. ed. Boston:
-  Addison-Wesley, 2003.}
-
 \bibitem[Kubinyi \emph{et al.} 2008]{kubinyi2008virtual}
 \abntrefinfo{Kubinyi \emph{et al.}}{KUBINYI \emph{et al.}}{2008}
 {KUBINYI, H. \emph{et al.} \textbf{Virtual screening for bioactive molecules}.
@@ -85,22 +75,10 @@ Dispon{\'\i}vel em: $<$http://jabref.sourceforge.net$>$. Acesso em: 8 nov.
 \textbf{Asian Journal of Biochemical and Pharmaceutical Research}, AJBPAD,
   v.~2, n.~4, p. 135--143, 2012.}
 
-\bibitem[Lamport 1986]{Lamport1986}
-\abntrefinfo{Lamport}{LAMPORT}{1986}
-{LAMPORT, L. \textbf{\LaTeX: \normalfont a document preparation system}.
-  Boston: Addison-Wesley, 1986.}
-
 \bibitem[Li \emph{et al.} 2010]{li2010pubchem}
 \abntrefinfo{Li \emph{et al.}}{LI \emph{et al.}}{2010}
 {LI, Q. \emph{et al.} Pubchem as a public resource for drug discovery.
 \textbf{Drug discovery today}, Elsevier, v.~15, n.~23, p. 1052--1057, 2010.}
-
-\bibitem[Lipinski \emph{et al.} 2012]{lipinski2012experimental}
-\abntrefinfo{Lipinski \emph{et al.}}{LIPINSKI \emph{et al.}}{2012}
-{LIPINSKI, C.~A. \emph{et al.} Experimental and computational approaches to
-  estimate solubility and permeability in drug discovery and development
-  settings.
-\textbf{Advanced drug delivery reviews}, Elsevier, v.~64, p. 4--17, 2012.}
 
 \bibitem[Ma, Wang \& Xie 2011]{machao2011gpu}
 \abntrefinfo{Ma, Wang \& Xie}{MA; WANG; XIE}{2011}
@@ -127,10 +105,11 @@ Dispon{\'\i}vel em: $<$http://www.mendeley.com$>$. Acesso em: 8 nov. de 2011.}
 {MIKTEX. \textbf{The MiK\TeX\ project}. 2009.
 Dispon{\'\i}vel em: $<$http://www.miktex.org$>$. Acesso em: 8 nov. de 2011.}
 
-\bibitem[Mittelbach \emph{et al.} 2004]{Mittelbach2004}
-\abntrefinfo{Mittelbach \emph{et al.}}{MITTELBACH \emph{et al.}}{2004}
-{MITTELBACH, F. \emph{et al.} \textbf{The \LaTeX\ companion}. 2. ed. Boston:
-  Addison-Wesley, 2004.}
+\bibitem[Patterns 2003]{patterns2003model}
+\abntrefinfo{Patterns}{PATTERNS}{2003}
+{PATTERNS, D. \textbf{Model-View-Controller}. [S.l.]: Microsoft Patterns \&
+  Practices, http://msdn. microsoft.
+  com/practices/type/Patterns/Enterprise/DesMVC, 2003.}
 
 \bibitem[Pavlov \emph{et al.} 2011]{pavlov2011indigo}
 \abntrefinfo{Pavlov \emph{et al.}}{PAVLOV \emph{et al.}}{2011}
@@ -175,6 +154,13 @@ Dispon{\'\i}vel em: $<$http://www.texniccenter.org$>$. Acesso em: 8 nov. 2011.}
 ISBN 9783527613113. Dispon{\'\i}vel em:
   $<$https://books.google.com.br/books?id=PCXXdjUJiLoC$>$. Acesso em: 24 Nov.
   2016.}
+
+\bibitem[Varnek 2011]{varnek2011fragment}
+\abntrefinfo{Varnek}{VARNEK}{2011}
+{VARNEK, A. Fragment descriptors in structure--property modeling and virtual
+  screening.
+\textbf{Chemoinformatics and Computational Chemical Biology}, Springer, p.
+  213--243, 2011.}
 
 \bibitem[Vidal, Thormann \& Pons 2005]{vidal2005lingo}
 \abntrefinfo{Vidal, Thormann \& Pons}{VIDAL; THORMANN; PONS}{2005}

@@ -15,13 +15,10 @@
 \contentsline {subsection}{\numberline {2.3.2}\MakeUppercase {Coeficiente de Tversky}}{22}
 \contentsline {subsection}{\numberline {2.3.3}\MakeUppercase {LINGO}}{23}
 \contentsline {subsection}{\numberline {2.3.4}\MakeUppercase {Localized Co-occurrence Model (LCM)}}{24}
-\contentsline {chapter}{\numberline {3}\MakeUppercase {O Sistema NatProDB}}{26}
-\contentsline {section}{\numberline {3.1}\MakeUppercase {Gerenciamento de Bancos de Dados Moleculares}}{26}
-\contentsline {section}{\numberline {3.2}\MakeUppercase {Triagem Virtual de Mol\IeC {\'e}culas Baseado no Conceito de Similaridade Mol\IeC {\'e}cular}}{26}
-\contentsline {section}{\numberline {3.3}\MakeUppercase {Tabelas}}{26}
-\contentsline {section}{\numberline {3.4}\MakeUppercase {Equa\c {c}\~oes}}{27}
-\contentsline {section}{\numberline {3.5}\MakeUppercase {Siglas e s\'imbolos}}{27}
-\contentsline {chapter}{\numberline {4}\MakeUppercase {Metodologia}}{29}
-\contentsline {chapter}{\numberline {5}\MakeUppercase {Resultados}}{30}
-\contentsline {chapter}{\numberline {6}\MakeUppercase {Considera\IeC {\c c}\IeC {\~o}es Finais}}{31}
-\contentsline {chapter}{REFER\^ENCIAS}{32}
+\contentsline {chapter}{\numberline {3}\MakeUppercase {Metodologia}}{26}
+\contentsline {section}{\numberline {3.1}\MakeUppercase {FERRAMENTAS UTILIZADAS PARA IMPLEMENTA\IeC {\c C}\IeC {\~A}O}}{26}
+\contentsline {section}{\numberline {3.2}\MakeUppercase {ALGORITMO E M\IeC {\'E}TRICA PARA C\IeC {\'A}LCULO DE SIMILARIDADE NO NATPRODB}}{26}
+\contentsline {section}{\numberline {3.3}\MakeUppercase {TESTES}}{28}
+\contentsline {chapter}{\numberline {4}\MakeUppercase {Resultados}}{29}
+\contentsline {chapter}{\numberline {5}\MakeUppercase {Considera\IeC {\c c}\IeC {\~o}es Finais}}{30}
+\contentsline {chapter}{REFER\^ENCIAS}{31}
