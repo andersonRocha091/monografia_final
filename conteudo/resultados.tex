@@ -1,3 +1,36 @@
-\chapter{Resultados}
+\chapter{Resultados e Discussões}
 \label{chap:resul}
-Apresentar os resultados da sua pesquisa.
+ 
+ De acordo com \citeonline{Dogra2007}, a similaridade entre duas moléculas pode ser verificada quando o coeficiente de similaridade resultante da comparação de duas estruturas é superior a 0.8 ou 80\%. Desta maneira para o primeiro teste realizado no sistema, tendo como alvo o acetaminophen e utilizando o limiar de similaridade citado anteriormente, das 50 moléculas $\geq $0.8 ou $\geq $80\% similares (extraídas do PUBCHEM) inseridas no banco do NatProDB, o algoritmo implementado no sistema recuperou corretamente 45 delas com coeficiente de similaridade superior a 0.8 (Verdadeiro Positivo), e 5 delas foram classificadas pelo NatProDB com similaridade inferior a 0.8 (Falso Negativo) como podemos verificar na tabela (\ref{tab:Acetaminophen}) 
+ 
+ \begin{table}[!htb]
+	\centering
+	\footnotesize
+	\caption[Classificação de moléculas similares ao Acetaminophen]{Classificação de moléculas similares ao Acetaminophen}
+	\label{tab:Acetaminophen}	
+	\begin{tabular}{p{4cm}ccc}
+		\hline \SPACE
+		\textbf{}&\textbf{Similaridade $\geq $ 0.8} & \textbf{Similaridade $\leq $ 0.8} \\ \hline \SPACE
+	Moléculas classificadas c/ similaridade $\geq $ 0.8  &	45 & 0 \\ \hline \SPACE
+	Moléculas classificadas c/ similaridade $\leq $ 0.8  & 5 & 47742\\ \hline 
+	\end{tabular}
+	\fonte{Pr\'oprio Autor.}
+\end{table}
+A partir da matriz de confusão (\ref{tab:Acetaminophen}) podemos observar para esse teste uma Acurácia = 0.99 \eqref{eq:Acuracia}, Sensibilidade = 0,9 (\ref{eq:Sensibilidade}), Medida F-Score = 0.947 \eqref{eq:FMedida}, Precisão = 1 \eqref{eq:Precisao}, Especificidade = 1 \eqref{eq:Especificidade}
+
+Para o segundo teste realizado, tendo como alvo a fluoxetina, e utilizando o mesmo limiar de similaridade aplicado anteriormente, das 50 moléculas $\geq $0.8 ou $\geq $80\% similares a fluoxetina enxertada no NatProDB (extraídas do PUBCHEM), o algoritmo implementado no NatProDB recuperou corretamente 48 dessas estruturas (Verdadeiros Positivos), e apenas duas delas foram classificadas com coeficiente de similaridade inferior a 0.8 (Falso Negativo) conforme podemos observar na tabela (\ref{tab:Fluoxetina}). 
+
+ \begin{table}[!htb]
+	\centering
+	\footnotesize
+	\caption[Resultado Obtido da Busca de Estruturas $\geq$0.8 Similares a Fluoxetina]{Resultado Obtido da Busca de Estruturas $\geq$0.8 Similares a Fluoxetina}
+	\label{tab:Fluoxetina}	
+	\begin{tabular}{p{4cm}ccc}
+		\hline \SPACE
+		\textbf{}&\textbf{Similaridade $\geq $ 0.8} & \textbf{Similaridade $\leq $ 0.8} \\ \hline \SPACE
+	Moléculas classificadas c/ similaridade $\geq $ 0.8  &	48 & 0 \\ \hline \SPACE
+	Moléculas classificadas c/ similaridade $\leq $ 0.8  & 2 & 47742\\ \hline 
+	\end{tabular}
+	\fonte{Pr\'oprio Autor.}
+\end{table}       
+A partir da tabela (\ref{tab:Fluoxetina}) também podemos observar que para esse teste foram obtidas: Acurácia = 0.99 \eqref{eq:Acuracia}, Sensibilidade = 0,96 (\ref{eq:Sensibilidade}), Medida F-Score = 0.979 \eqref{eq:FMedida}, Precisão = 1 \eqref{eq:Precisao},  Especificidade = 1 \eqref{eq:Especificidade}.

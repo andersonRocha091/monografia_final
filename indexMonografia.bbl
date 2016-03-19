@@ -27,6 +27,12 @@ Dispon{\'\i}vel em: $<$http://sourceforge.net/apps/
 {CTAN. \textbf{The comprehensive \TeX\ archive network}. 2009.
 Dispon{\'\i}vel em: $<$http://www.ctan. org$>$. Acesso em: 8 nov. de 2011.}
 
+\bibitem[Davis \& Goadrich 2006]{davis2006relationship}
+\abntrefinfo{Davis \& Goadrich}{DAVIS; GOADRICH}{2006}
+{DAVIS, J.; GOADRICH, M. The relationship between precision-recall and roc
+  curves. In:  ACM. \textbf{Proceedings of the 23rd international conference on
+  Machine learning}. [S.l.], 2006. p. 233--240.}
+
 \bibitem[Devillers 1996]{devillers1996}
 \abntrefinfo{Devillers}{DEVILLERS}{1996}
 {DEVILLERS, J. \textbf{Neural networks in QSAR and drug design}. [S.l.]:
