@@ -1,7 +1,7 @@
 \chapter{Resultados e Discussões}
 \label{chap:resul}
  
- De acordo com \citeonline{Dogra2007}, a similaridade entre duas moléculas pode ser verificada quando o coeficiente de similaridade resultante da comparação de duas estruturas é superior a 0.8 ou 80\%. Desta maneira para o primeiro teste realizado no sistema, tendo como alvo o acetaminophen e utilizando o limiar de similaridade citado anteriormente, das 50 moléculas $\geq $0.8 ou $\geq $80\% similares (extraídas do PUBCHEM) inseridas no banco do NatProDB, o algoritmo implementado no sistema recuperou corretamente 45 delas com coeficiente de similaridade superior a 0.8 (Verdadeiro Positivo), e 5 delas foram classificadas pelo NatProDB com similaridade inferior a 0.8 (Falso Negativo) como podemos verificar na tabela (\ref{tab:Acetaminophen}) 
+ De acordo com \citeonline{Dogra2007}, a similaridade entre duas moléculas pode ser verificada quando o coeficiente de similaridade resultante da comparação de duas estruturas é superior a 0.8 ou 80\%. Desta maneira para o primeiro teste realizado no sistema, tendo como alvo o acetaminophen e utilizando o limiar de similaridade citado anteriormente, das 50 moléculas $\geq $0.8 ou $\geq $80\% similares (extraídas do PUBCHEM) inseridas no banco do NatProDB, o algoritmo implementado no sistema recuperou corretamente 45 delas com coeficiente de similaridade superior a 0.8 (Verdadeiro Positivo $V_P$), 5 delas foram classificadas pelo NatProDB com similaridade inferior a 0.8 (Falso Negativo $F_P$), não  como podemos verificar na tabela (\ref{tab:Acetaminophen}) 
  
  \begin{table}[!htb]
 	\centering
@@ -18,7 +18,7 @@
 \end{table}
 A partir da matriz de confusão (\ref{tab:Acetaminophen}) podemos observar para esse teste uma Acurácia = 0.99 \eqref{eq:Acuracia}, Sensibilidade = 0,9 (\ref{eq:Sensibilidade}), Medida F-Score = 0.947 \eqref{eq:FMedida}, Precisão = 1 \eqref{eq:Precisao}, Especificidade = 1 \eqref{eq:Especificidade}
 
-Para o segundo teste realizado, tendo como alvo a fluoxetina, e utilizando o mesmo limiar de similaridade aplicado anteriormente, das 50 moléculas $\geq $0.8 ou $\geq $80\% similares a fluoxetina enxertada no NatProDB (extraídas do PUBCHEM), o algoritmo implementado no NatProDB recuperou corretamente 48 dessas estruturas (Verdadeiros Positivos), e apenas duas delas foram classificadas com coeficiente de similaridade inferior a 0.8 (Falso Negativo) conforme podemos observar na tabela (\ref{tab:Fluoxetina}). 
+Para o segundo teste realizado, tendo como alvo a fluoxetina, e utilizando o mesmo limiar de similaridade aplicado anteriormente, das 50 moléculas $\geq $0.8 ou $\geq $80\% similares a fluoxetina enxertada no NatProDB (extraídas do PUBCHEM), o algoritmo implementado no NatProDB recuperou corretamente 48 dessas estruturas ($V_P$), e apenas duas delas foram classificadas com coeficiente de similaridade inferior a 0.8 ($F_N$), e nenhum $F_P$ foi verificado conforme podemos observar na tabela (\ref{tab:Fluoxetina}). 
 
  \begin{table}[!htb]
 	\centering
@@ -34,3 +34,116 @@ Para o segundo teste realizado, tendo como alvo a fluoxetina, e utilizando o mes
 	\fonte{Pr\'oprio Autor.}
 \end{table}       
 A partir da tabela (\ref{tab:Fluoxetina}) também podemos observar que para esse teste foram obtidas: Acurácia = 0.99 \eqref{eq:Acuracia}, Sensibilidade = 0,96 (\ref{eq:Sensibilidade}), Medida F-Score = 0.979 \eqref{eq:FMedida}, Precisão = 1 \eqref{eq:Precisao},  Especificidade = 1 \eqref{eq:Especificidade}.
+
+O terceiro teste realizado teve como alvo Glyburid. Sob o mesmo limiar de similaridade dos testes anteriores, das 50 moléculas $\geq $0.8 ou $\geq $80\% similares ao Glyburid, inseridas no banco de dados do NatProDB (extraídas do PUBCHEM), o algoritmo implementado  recuperou corretamente todas as 50 estruturas ($V_P$), e por tanto nenhuma delas foram classificadas com coeficiente de similaridade inferior a 0.8 ($F_N$), o que gerou uma  Acurácia = 1 \eqref{eq:Acuracia}, Sensibilidade = 1 (\ref{eq:Sensibilidade}), Medida F-Score = 1 \eqref{eq:FMedida}, Precisão = 1 \eqref{eq:Precisao},  Especificidade = 1 \eqref{eq:Especificidade}. conforme podemos observar na tabela (\ref{tab:Glyburid}).
+
+ \begin{table}[!htb]
+	\centering
+	\footnotesize
+	\caption[Resultado Obtido da Busca de Estruturas $\geq$0.8 Similares ao Glyburid]{Resultado Obtido da Busca de Estruturas $\geq$0.8 Similares ao Glyburid}
+	\label{tab:Glyburid}	
+	\begin{tabular}{p{4cm}ccc}
+		\hline \SPACE
+		\textbf{}&\textbf{Similaridade $\geq $ 0.8} & \textbf{Similaridade $\leq $ 0.8} \\ \hline \SPACE
+	Moléculas classificadas c/ similaridade $\geq $ 0.8  &	50 & 0 \\ \hline \SPACE
+	Moléculas classificadas c/ similaridade $\leq $ 0.8  & 0 & 47742\\ \hline 
+	\end{tabular}
+	\fonte{Pr\'oprio Autor.}
+\end{table} 
+
+O quarto teste realizado teve como alvo a molécula Imatinib. A triagem de moléculas no banco do NatProDB cujo coeficiente de similaridade $\geq$ 0.8 com relação a molécula-alvo, retornou 49 das 50 estruturas $\geq$0.8 ou 80\% similares ao imatinib enxertadas no banco. Dessa maneira foram obtidos 49  $V_P$, apenas 1 $F_P$, e novamente nenhum $F_N$ foi verificado. A partir desse resultado foram obtidas: Acurácia = 0.99 \eqref{eq:Acuracia}, Sensibilidade = 0.98 (\ref{eq:Sensibilidade}), Medida F-Score = 0.989 \eqref{eq:FMedida}, Precisão = 1 \eqref{eq:Precisao},  Especificidade = 1 \eqref{eq:Especificidade}. conforme podemos observar na tabela (\ref{tab:Imatinib})
+
+ \begin{table}[!htb]
+	\centering
+	\footnotesize
+	\caption[Resultado Obtido da Busca de Estruturas $\geq$0.8 Similares ao Imatinib]{Resultado Obtido da Busca de Estruturas $\geq$0.8 Similares ao Imatinib}
+	\label{tab:Imatinib}	
+	\begin{tabular}{p{4cm}ccc}
+		\hline \SPACE
+		\textbf{}&\textbf{Similaridade $\geq $ 0.8} & \textbf{Similaridade $\leq $ 0.8} \\ \hline \SPACE
+	Moléculas classificadas c/ similaridade $\geq $ 0.8  &	50 & 0 \\ \hline \SPACE
+	Moléculas classificadas c/ similaridade $\leq $ 0.8  & 0 & 47742\\ \hline 
+	\end{tabular}
+	\fonte{Pr\'oprio Autor.}
+\end{table}
+
+O quinto teste realizado no sistema teve como alvo o Isosorbid. A consulta realizada no banco do NatProDB por estruturas 0.8 ou 80\% similares à molécula-alvo, retornou todas as 34 moléculas $\geq$ 0.8 similares ao que foram enxertadas no banco do sistema, não gerando assim nenhum falso-positivo ou falso-negativo. Consequentemente foram obtidas a partir dos resultados apresentados na tabela (\ref{tab:Isosorbid}): Acurácia = 1 \eqref{eq:Acuracia}, Sensibilidade = 1 (\ref{eq:Sensibilidade}), Medida F-Score = 1 \eqref{eq:FMedida}, Precisão = 1 \eqref{eq:Precisao},  Especificidade = 1 \eqref{eq:Especificidade}.
+
+ \begin{table}[!htb]
+	\centering
+	\footnotesize
+	\caption[Resultado Obtido da Busca de Estruturas $\geq$0.8 Similares ao Isosorbid]{Resultado Obtido da Busca de Estruturas $\geq$0.8 Similares ao Isosorbid}
+	\label{tab:Isosorbid}	
+	\begin{tabular}{p{4cm}ccc}
+		\hline \SPACE
+		\textbf{}&\textbf{Similaridade $\geq $ 0.8} & \textbf{Similaridade $\leq $ 0.8} \\ \hline \SPACE
+	Moléculas classificadas c/ similaridade $\geq $ 0.8  &	34 & 0 \\ \hline \SPACE
+	Moléculas classificadas c/ similaridade $\leq $ 0.8  & 0 & 47758\\ \hline 
+	\end{tabular}
+	\fonte{Pr\'oprio Autor.}
+\end{table}
+
+Para o sexto teste foi selecionada como molécula-alvo o Vinblastine. A triagem realizada no banco de dados do NatProDB por estruturas $\geq$ 0.8 ou 80\% similares a molécula-alvo, recuperou todas as 50 moléculas $\geq$ 0.8 similares ao Vinblastine enxertadas no banco de dados do sistema. Novamente, assim como no teste anterior, não foi verficada a ocorrência de falsos-positivos e/ou falsos-negativos, resultando em medidas de:Acurácia = 1 \eqref{eq:Acuracia}, Sensibilidade = 1 (\ref{eq:Sensibilidade}), Medida F-Score = 1 \eqref{eq:FMedida}, Precisão = 1 \eqref{eq:Precisao},  Especificidade = 1 \eqref{eq:Especificidade}. Conforme podemos verificar pela tabela (\ref{tab:Vinblastine})
+
+ \begin{table}[!htb]
+	\centering
+	\footnotesize
+	\caption[Resultado Obtido da Busca de Estruturas $\geq$0.8 Similares ao Vinblastine]{Resultado Obtido da Busca de Estruturas $\geq$0.8 Similares ao Vinblastine}
+	\label{tab:Vinblastine}	
+	\begin{tabular}{p{4cm}ccc}
+		\hline \SPACE
+		\textbf{}&\textbf{Similaridade $\geq $ 0.8} & \textbf{Similaridade $\leq $ 0.8} \\ \hline \SPACE
+	Moléculas classificadas c/ similaridade $\geq $ 0.8  &	50 & 0 \\ \hline \SPACE
+	Moléculas classificadas c/ similaridade $\leq $ 0.8  & 0 & 47742\\ \hline 
+	\end{tabular}
+	\fonte{Pr\'oprio Autor.}
+\end{table}
+
+\newpage
+O sétimo teste realizado teve como molécula-alvo o Propanolol. A consulta realizada no NatProDB buscando as estruturas $\geq$ 0.8 ou $\geq$ 80\% similares ao Propanolol recuperou 42 das 50 moléculas enxertadas no banco do sistema (Verdeiros positivos $V_P$), e as 8 moléculas restantes foram classificadas com coeficiente de similaridade inferior a 0.8 (Falso negativos $F_P$). A partir desse dados foram obtidas a partir da tabela (\ref{tab:Propanolol}): Acurácia = 0,99 \eqref{eq:Acuracia}, Sensibilidade = 0,84 (\ref{eq:Sensibilidade}), Medida F-Score = 0,91 \eqref{eq:FMedida}, Precisão = 1 \eqref{eq:Precisao},  Especificidade = 1 \eqref{eq:Especificidade}.  
+
+Os resultados desse teste podem ser verificado na matriz de confusão (\ref{tab:Propanolol})
+\begin{table}[!htb]
+	\centering
+	\footnotesize
+	\caption[Resultado Obtido da Busca de Estruturas $\geq$0.8 Similares ao Propanolol]{Resultado Obtido da Busca de Estruturas $\geq$0.8 Similares ao Propanolol}
+	\label{tab:Propanolol}	
+	\begin{tabular}{p{4cm}ccc}
+		\hline \SPACE
+		\textbf{}&\textbf{Similaridade $\geq $ 0.8} & \textbf{Similaridade $\leq $ 0.8} \\ \hline \SPACE
+	Moléculas classificadas c/ similaridade $\geq $ 0.8  &	42 & 0 \\ \hline \SPACE
+	Moléculas classificadas c/ similaridade $\leq $ 0.8  & 8 & 47742\\ \hline 
+	\end{tabular}
+	\fonte{Pr\'oprio Autor.}
+\end{table}
+
+\begin{table}[!htb]
+	\centering
+	\footnotesize
+	\caption[Resumo dos Resultados Obtidos nos Testes Realizados]{Resumo dos Resultados Obtidos nos Testes Realizados}
+	\label{tab:ResumoResultados}	
+	\begin{tabular}{|c|c|c|c|c|c|c|}
+		\hline \SPACE
+		\textbf{Teste}&\textbf{Acurácia}&\textbf{Sensibilidade}&\textbf{F-Score}&\textbf{Precisão}&\textbf{Especificidade}&\textbf{FPR} \\ \hline \SPACE
+	1\textordmasculine &0,99&0,9&0,947&1&1&0 \\ \hline \SPACE
+	2\textordmasculine &0,99&0,96&0,979&1&1&0\\ \hline 
+	3\textordmasculine &1&1&1&1&1&0\\ \hline
+	4\textordmasculine &0,99&0,98&0,989&1&1&0\\ \hline
+	5\textordmasculine &1&1&1&1&1&0\\ \hline
+	6\textordmasculine &1&1&1&1&1&0\\ \hline
+	7\textordmasculine &0,99&0,84&0,91&1&1&0\\ \hline
+	\end{tabular}
+	\fonte{Pr\'oprio Autor.}
+\end{table}
+ 
+De acordo com \citeonline{davis2006relationship}, embora as medidas de acurácia e F-medida forneçam uma medida global da qualidade da classificação, na qual quão mais próximos de 1 os valores obtidos para as mesmas melhor a classificação, o autor relata que uma classificação ideal ocorre quando a Sensibilidade \eqref{eq:Sensibilidade} $\simeq 1$, e FPR \eqref{eq:FPR}  $\simeq 0$. Sob essa perspectiva, tomando como base o pior caso dos testes realizados no sistema, no caso o sétimo teste - tendo como alvo a molécula de propranolol - que reportou $F_N$ = 8, podemos facilmente identificar a partir tabela de resumo dos testes (\ref{tab:ResumoResultados}) que foram obtidas uma Sensibilidade = 0,84, e FPR = 0, o que indica que o método aplicado para separar as moléculas $\geq$ 0.8 similares ao propranolol obteve uma resposta satisfatória, uma vez que ambas sensibilidade e FPR se aproximaram respectivamente de 1 e 0 (classificador ideal). Estendendo tal verificação para todos os testes realizados, foi observado que não ocorreram $F_P$ nos testes realizados, ou em outras palavras, o método  implementado para triagem virtual de moléculas baseado no conceito de similaridade não retornou nenhuma molécula com coeficiente de similaridade inferior a 0.8 para cada uma das moléculas-alvo testadas. Consequentemente, as sensibilidades verificadas em todos os testes realizados variam dentro de um intervalo de [0,84 - 0,99], o que de acordo com \citeonline{davis2006relationship}  pode ser considerado como um comportamento próximo de um classificador ideal.
+
+
+
+
+            
+
+
+   
+
+   

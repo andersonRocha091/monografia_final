@@ -12,13 +12,10 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: abnt-options.bib
 Database file #2: abnt-uefs.bib
-Repeated entry---line 24 of file abnt-uefs.bib
- : @inproceedings{davis2006relationship
- :                                     ,
-I'm skipping whatever remains of this entry
 Warning--entry type for "Dogra2007" isn't style-file defined
---line 83 of file abnt-uefs.bib
+--line 66 of file abnt-uefs.bib
 Warning--I didn't find a database entry for "call=authordata"
+Warning--I didn't find a database entry for "abnTeX2009"
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
@@ -30,45 +27,45 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de duvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 37 entries,
+You've used 29 entries,
             6522 wiz_defined-function locations,
-            1356 strings with 14390 characters,
-and the built_in function-call counts, 27541 in all, are:
-= -- 2134
-> -- 876
+            1315 strings with 13652 characters,
+and the built_in function-call counts, 22665 in all, are:
+= -- 1758
+> -- 756
 < -- 58
-+ -- 366
-- -- 268
-* -- 1904
-:= -- 3581
-add.period$ -- 120
-call.type$ -- 41
-change.case$ -- 317
-chr.to.int$ -- 83
-cite$ -- 31
-duplicate$ -- 1288
-empty$ -- 2327
-format.name$ -- 1258
-if$ -- 6708
++ -- 324
+- -- 228
+* -- 1600
+:= -- 2885
+add.period$ -- 80
+call.type$ -- 33
+change.case$ -- 269
+chr.to.int$ -- 75
+cite$ -- 23
+duplicate$ -- 1064
+empty$ -- 1847
+format.name$ -- 1074
+if$ -- 5508
 int.to.chr$ -- 5
 int.to.str$ -- 3
-missing$ -- 627
-newline$ -- 156
-num.names$ -- 155
-pop$ -- 739
+missing$ -- 499
+newline$ -- 116
+num.names$ -- 115
+pop$ -- 587
 preamble$ -- 1
-purify$ -- 136
+purify$ -- 112
 quote$ -- 0
-skip$ -- 1768
+skip$ -- 1464
 stack$ -- 1
-substring$ -- 1134
-swap$ -- 668
+substring$ -- 988
+swap$ -- 572
 text.length$ -- 42
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 234
+while$ -- 186
 width$ -- 0
-write$ -- 512
-(There was 1 error message)
+write$ -- 392
+(There were 3 warnings)

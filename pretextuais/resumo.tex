@@ -3,20 +3,18 @@ O processo de desenvolvimento de um fármaco é realizado em diversas etapas, qu
 o projeto e estudo de um possível composto farmacofórico até sua sintetização. Grande parte
 dos esforços empregados para o desenvolvimento de um novo medicamento são realizados de
 forma assistida em computadores. As ferramentas computacionais permitem aos pesquisadores
-tanto catalogar de forma mais eficiente suas estruturas de estudo, quanto avaliar de forma maisrápida características estruturais, bioquímicas, e o comportamento de moléculas ao sofrer
-variações estruturais. Além disso, essas ferramentas também auxiliam na busca por estruturas
-similares, que é um conceito em que se baseia grande parte dos esforços dirigidos ao projeto de um novo fármaco. O presente trabalho descreve a adaptação de algoritmos apropriados para
+tanto catalogar de forma mais eficiente suas estruturas de estudo, quanto avaliar de forma mais rápida características estruturais, bioquímicas, e o comportamento de moléculas ao sofrer variações estruturais. Além disso, algumas dessas ferramentas também realizam triagem em bancos de dados moleculares baseados no conceito de similaridade molecular, que é um conceito chave no qual se baseiam grande parte dos esforços dirigidos ao projeto de um novo fármaco. O presente trabalho descreve a adaptação de um algoritmo apropriado para
 computação de similaridade molecular em um software desenvolvido para catalogação de
 moléculas em banco de dados, visando possibilitar ao pesquisador procurar em sua própria
-base de dados, estruturas similares às de seu interesse de estudo. Um diferencial deste trabalhoé que essa ferramenta será disponibilizada livremente para qualquer usuário, e devido às características inerentes à sua implementação, em contrapartida à outras ferramentas
+base de dados, estruturas similares a moléculas de seu interesse de estudo. Um diferencial deste trabalho é que essa ferramenta será disponibilizada livremente para qualquer usuário, e devido às características inerentes à sua implementação, em contrapartida à outras ferramentas
 disponíveis para o mesmo fim, este software não necessitará de muitos recursos de hardware
 para sua execução, ou seja, é compatível com computadores comuns, e também com qualquer
-sistema operacional utilizado pelo pesquisador. De forma resumida, o sistema se comportará da
-seguinte forma: Uma vez cadastradas as moléculas no banco de dados do usuário, o
+sistema operacional utilizado pelo pesquisador. De forma resumida, o sistema se comporta da
+seguinte forma: Uma vez cadastradas as moléculas e seus respectivos SMILES no banco de dados do usuário, o
 pesquisador poderá consultar em seu banco se há ocorrência de estruturas com um grau de
-similaridade desejado à molécula inserida para consulta. O sistema converte a molécula de
-entrada, e as presentes no banco em fingerprints para aplicação da métrica de Tanimoto para
-obtenção de um índice de similaridade, retornando por fim para o pesquisador todas as
+similaridade desejado à molécula inserida para consulta. O sistema converte os SMILES da molécula de
+entrada, e das presentes no banco em fingerprints para aplicação da métrica de Tversky para
+obtenção de um coeficiente de similaridade, retornando por fim para o pesquisador todas as
 moléculas do seu banco que possuem um grau de similaridade igual ou superior ao desejado
-(em relação à molécula de entrada).
+(em relação à molécula de entrada). O algoritmo adotado para computação de similaridade molecular foi testado através de uma adaptação do conceito de matriz de confusão e teve como entrada 7 moléculas já disponibilizadas como fármacos, e para os testes realizados no sistema foram verificados que a classificação de moléculas com coeficiente de similaridades $\geq$ 0,8 no sistema se aproximou do comportamento de uma classificação ideal.
 \end{resumo}	

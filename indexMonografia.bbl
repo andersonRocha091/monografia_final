@@ -5,12 +5,6 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{1.53 }
 
-\bibitem[abnTeX 2009]{abnTeX2009}
-\abntrefinfo{abnTeX}{ABNTEX}{2009}
-{ABNTEX. \textbf{Absurdas normas para \TeX}. 2009.
-Dispon{\'\i}vel em: $<$http://sourceforge.net/apps/
-  mediawiki/abntex/index.php$>$. Acesso em: 8 nov. 2011.}
-
 \bibitem[Anderson, Veith \& Weininger 1987]{anderson1987smiles}
 \abntrefinfo{Anderson, Veith \& Weininger}{ANDERSON; VEITH; WEININGER}{1987}
 {ANDERSON, E.; VEITH, G.~D.; WEININGER, D. \textbf{SMILES, a line notation and
@@ -21,11 +15,6 @@ Dispon{\'\i}vel em: $<$http://sourceforge.net/apps/
 \abntrefinfo{Bajorath}{BAJORATH}{2004}
 {BAJORATH, J. \textbf{Chemoinformatics: concepts, methods, and tools for drug
   discovery}. [S.l.]: Springer Science \& Business Media, 2004.}
-
-\bibitem[CTAN 2009]{CTAN2009}
-\abntrefinfo{CTAN}{CTAN}{2009}
-{CTAN. \textbf{The comprehensive \TeX\ archive network}. 2009.
-Dispon{\'\i}vel em: $<$http://www.ctan. org$>$. Acesso em: 8 nov. de 2011.}
 
 \bibitem[Davis \& Goadrich 2006]{davis2006relationship}
 \abntrefinfo{Davis \& Goadrich}{DAVIS; GOADRICH}{2006}
@@ -57,12 +46,6 @@ Dispon{\'\i}vel em: $<$http://www.qsarworld.com/virtual-workshop.php$>$.}
 \textbf{Journal of chemical information and modeling}, ACS Publications, v.~45,
   n.~1, p. 177--182, 2005.}
 
-\bibitem[JabRef 2009]{JabRef2009}
-\abntrefinfo{JabRef}{JABREF}{2009}
-{JABREF. \textbf{JabRef reference manager}. 2009.
-Dispon{\'\i}vel em: $<$http://jabref.sourceforge.net$>$. Acesso em: 8 nov.
-  2011.}
-
 \bibitem[Koes \& Camacho 2011]{koes2011pharmer}
 \abntrefinfo{Koes \& Camacho}{KOES; CAMACHO}{2011}
 {KOES, D.~R.; CAMACHO, C.~J. Pharmer: efficient and exact pharmacophore search.
@@ -93,23 +76,12 @@ Dispon{\'\i}vel em: $<$http://jabref.sourceforge.net$>$. Acesso em: 8 nov.
 \textbf{Journal of chemical information and modeling}, ACS Publications, v.~51,
   n.~7, p. 1521--1527, 2011.}
 
-\bibitem[Mendeley 2009]{Mendeley2009}
-\abntrefinfo{Mendeley}{MENDELEY}{2009}
-{MENDELEY. \textbf{Mendeley: \normalfont academic software for research
-  papers}. 2009.
-Dispon{\'\i}vel em: $<$http://www.mendeley.com$>$. Acesso em: 8 nov. de 2011.}
-
 \bibitem[Mestres, Rohrer \& Maggiora 1997]{mestres1997mimic}
 \abntrefinfo{Mestres, Rohrer \& Maggiora}{MESTRES; ROHRER; MAGGIORA}{1997}
 {MESTRES, J.; ROHRER, D.~C.; MAGGIORA, G.~M. Mimic: A molecular-field matching
   program. exploiting applicability of molecular similarity approaches.
 \textbf{Journal of Computational Chemistry}, Wiley Online Library, v.~18, n.~7,
   p. 934--954, 1997.}
-
-\bibitem[MiKTeX 2009]{MiKTeX2009}
-\abntrefinfo{MiKTeX}{MIKTEX}{2009}
-{MIKTEX. \textbf{The MiK\TeX\ project}. 2009.
-Dispon{\'\i}vel em: $<$http://www.miktex.org$>$. Acesso em: 8 nov. de 2011.}
 
 \bibitem[Patterns 2003]{patterns2003model}
 \abntrefinfo{Patterns}{PATTERNS}{2003}
@@ -141,18 +113,6 @@ Dispon{\'\i}vel em: $<$http://www.miktex.org$>$. Acesso em: 8 nov. de 2011.}
 \textbf{Journal of chemical information and modeling}, ACS Publications, v.~47,
   n.~2, p. 302--317, 2007.}
 
-\bibitem[TeX-BR 2009]{TeX-Br2009}
-\abntrefinfo{TeX-BR}{TEX-BR}{2009}
-{TEX-BR. \textbf{Comunidade \TeX-Br}. 2009.
-Dispon{\'\i}vel em: $<$http://www.tex-br.org/index.php$>$. Acesso em: 8 nov.
-  2011.}
-
-\bibitem[TeXnicCenter 2009]{TeXnicCenter2009}
-\abntrefinfo{TeXnicCenter}{TEXNICCENTER}{2009}
-{TEXNICCENTER. \textbf{\TeX nicCenter: \normalfont the center of your \LaTeX\
-  universe}. 2009.
-Dispon{\'\i}vel em: $<$http://www.texniccenter.org$>$. Acesso em: 8 nov. 2011.}
-
 \bibitem[Todeschini \emph{et al.} 2008]{todeschini2008handbook}
 \abntrefinfo{Todeschini \emph{et al.}}{TODESCHINI \emph{et al.}}{2008}
 {TODESCHINI, R. \emph{et al.} \textbf{Handbook of Molecular Descriptors}.
@@ -174,12 +134,6 @@ ISBN 9783527613113. Dispon{\'\i}vel em:
   method to calculate biophysical properties and intermolecular similarities.
 \textbf{Journal of chemical information and modeling}, ACS Publications, v.~45,
   n.~2, p. 386--393, 2005.}
-
-\bibitem[Wikibooks 2009]{Wikibooks2009}
-\abntrefinfo{Wikibooks}{WIKIBOOKS}{2009}
-{WIKIBOOKS. \textbf{\LaTeX}. 2009.
-Dispon{\'\i}vel em: $<$http://en.wikibooks.org/wiki/LaTeX$>$. Acesso em: 8 nov.
-  2011.}
 
 \bibitem[Willett 2003]{willett2003similarity}
 \abntrefinfo{Willett}{WILLETT}{2003}
