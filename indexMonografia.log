@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.3.5)  2 APR 2016 21:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.3.5)  6 APR 2016 23:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -934,15 +934,21 @@ Underfull \hbox (badness 4647) in paragraph at lines 37--37
  [3
 
 ] (./indexMonografia.lot
-Underfull \hbox (badness 2717) in paragraph at lines 8--8
+Underfull \hbox (badness 1755) in paragraph at lines 7--7
  [] \T1/phv/m/n/12 Ta-bela []Resultado Ob-tido da Busca de Es-tru-tu-ras $\OMS/
-ztmcm/m/n/12 ^^U$\T1/phv/m/n/12 0.8 Si-mi-la-res ao 
+ztmcm/m/n/12 ^^U$\T1/phv/m/n/12 80% Si-mi-la-res ao 
  []
 
 
-Underfull \hbox (badness 2717) in paragraph at lines 9--9
+Underfull \hbox (badness 1024) in paragraph at lines 8--8
  [] \T1/phv/m/n/12 Ta-bela []Resultado Ob-tido da Busca de Es-tru-tu-ras $\OMS/
-ztmcm/m/n/12 ^^U$\T1/phv/m/n/12 0.8 Si-mi-la-res ao 
+ztmcm/m/n/12 ^^U$ \T1/phv/m/n/12 80% Si-mi-la-res ao 
+ []
+
+
+Underfull \hbox (badness 1755) in paragraph at lines 9--9
+ [] \T1/phv/m/n/12 Ta-bela []Resultado Ob-tido da Busca de Es-tru-tu-ras $\OMS/
+ztmcm/m/n/12 ^^U$\T1/phv/m/n/12 80% Si-mi-la-res ao 
  []
 
 )
@@ -994,30 +1000,17 @@ Underfull \hbox (badness 1303) in paragraph at lines 7--8
 [7
 
 
-]
-Underfull \hbox (badness 3396) in paragraph at lines 9--10
-[]\T1/phv/m/n/12 Neste tra-ba-lho será des-crita a im-ple-men-ta-ção de um al-g
-o-ritmo para
- []
-
-[8]
+] [8]
 LaTeX Font Info:    Try loading font information for OMS+phv on input line 23.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsphv.fd
 File: omsphv.fd 
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 23.
-
-Underfull \hbox (badness 3815) in paragraph at lines 24--25
-[]\T1/phv/m/n/12 Implementar ro-tina para re-a-li-za-ção de tri-a-gem de mo-lé-
-cu-las com um
- []
-
-) (./conteudo/fundamentacao.tex [9]
+)
+(./conteudo/fundamentacao.tex [9]
 Cap\'{\i }tulo 2.
-[10
 
-]
 Underfull \hbox (badness 2277) in paragraph at lines 14--15
 []\T1/phv/m/n/12 Devido a im-por-tân-cia das fer-ra-men-tas com-pu-ta-ci-o-nais
  no pro-cesso de
@@ -1030,24 +1023,38 @@ Underfull \hbox (badness 1237) in paragraph at lines 14--15
  []
 
 
+Underfull \hbox (badness 1297) in paragraph at lines 16--17
+\T1/phv/m/n/12 so-bre cada mo-lé-cula como: Massa mo-le-cu-lar, cen-tros qui-ra
+is, co-e-fi-ci-ente de
+ []
+
+
 Underfull \hbox (badness 1231) in paragraph at lines 16--17
 \T1/phv/m/n/12 e MOL2. O ZINC im-ple-menta ro-ti-nas para tri-a-gem vir-tual em
  sua base de
  []
 
-[11]
+[10
+
+]
+Underfull \hbox (badness 1466) in paragraph at lines 18--19
+\T1/phv/m/n/12 en-tre mo-lé-cu-las é o soft-ware ANA-CONDA (DE-VIL-LERS, 1996).
+ Tal sis-tema
+ []
+
+
 Underfull \hbox (badness 2503) in paragraph at lines 20--21
 []\T1/phv/m/n/12 Utilizando uma abor-da-gem para com-pu-ta-ção de si-mi-la-ri-d
 ade mo-le-cu-lar
  []
 
-[12]
+[11]
 Underfull \hbox (badness 1968) in paragraph at lines 24--25
 \T1/phv/m/n/12 com-pu-ta-ci-o-nais já exis-ten-tes (KOES; CA-MA-CHO, 2011). O m
 o-tivo para tal
  []
 
-[13]
+[12]
 Underfull \hbox (badness 2443) in paragraph at lines 35--36
 []\T1/phv/m/n/12 As Fin-ger-prints po-dem ser con-si-de-ra-das como um des-cri-
 tor mo-le-cu-lar
@@ -1059,18 +1066,19 @@ Underfull \hbox (badness 1389) in paragraph at lines 37--38
 o de 2048 bits para
  []
 
-[14]
+[13]
 Underfull \hbox (badness 1314) in paragraph at lines 43--47
 []\T1/phv/m/n/12 Os des-cri-to-res far-ma-co-fó-ri-cos tri-di-men-si-o-nais qua
 n-ti-fi-cam pro-pri-e-da-des e
  []
 
-[15]
+[14]
 Underfull \hbox (badness 2005) in paragraph at lines 56--57
 \T1/phv/m/n/12 é re-pre-sen-tado por seu sím-bolo atô-mico, onde os hi-dro-gê-n
 ios são omi-ti-dos
  []
 
+[15]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 60.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
@@ -1079,7 +1087,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
-<./figuras/SMILE.jpg, id=61, 310.15875pt x 148.30406pt>
+ <./figuras/SMILE.jpg, id=61, 310.15875pt x 148.30406pt>
 File: ./figuras/SMILE.jpg Graphic file (type jpg)
 
 <use ./figuras/SMILE.jpg>
@@ -1089,26 +1097,27 @@ Package pdftex.def Info: ./figuras/SMILE.jpg used on input line 61.
 
 LaTeX Warning: Citation `abnTeX2009' undefined on input line 62.
 
-[16 <./figuras/SMILE.jpg>]
+
 Underfull \hbox (badness 3919) in paragraph at lines 81--81
-[]\T1/phv/m/n/12 ALGORÍTMOS E MÉ-TRI-CAS PARA COM-PU-TA-ÇÃO DE SI-MI-LA-RI-DADE
+[]\T1/phv/m/n/12 ALGORITMOS E MÉ-TRI-CAS PARA COM-PU-TA-ÇÃO DE SI-MI-LA-RI-DADE
 
  []
 
 
-Underfull \hbox (badness 1371) in paragraph at lines 83--85
-\T1/phv/m/n/12 mo-le-cu-lar uti-li-zado, logo a ori-en-ta-ção do mé-todo de com
--pa-ra-ção se-le-ci-o-nado
+Underfull \hbox (badness 1178) in paragraph at lines 83--85
+\T1/phv/m/n/12 um fár-maco, pois tal con-ceito é um dos nor-te-a-do-res para tr
+i-a-gem vir-tual de
  []
 
-[17] <./figuras/comparacao_fingerprints.jpg, id=69, 402.00188pt x 316.93407pt>
+[16 <./figuras/SMILE.jpg>] [17]
+<./figuras/comparacao_fingerprints.jpg, id=71, 402.00188pt x 316.93407pt>
 File: ./figuras/comparacao_fingerprints.jpg Graphic file (type jpg)
 
 <use ./figuras/comparacao_fingerprints.jpg>
 Package pdftex.def Info: ./figuras/comparacao_fingerprints.jpg used on input li
 ne 117.
 (pdftex.def)             Requested size: 227.62206pt x 179.45496pt.
- [18] [19 <./figuras/comparacao_fingerprints.jpg>]
+ [18 <./figuras/comparacao_fingerprints.jpg>]
 Underfull \hbox (badness 1466) in paragraph at lines 137--138
 \T1/phv/m/n/12 pre-sen-tes na mo-lé-cula A em de-tri-mento da mo-lé-cula B, ou 
 vice-versa. Tal
@@ -1120,13 +1129,13 @@ Underfull \hbox (badness 1895) in paragraph at lines 140--141
 ho 4 para me-lho-res
  []
 
-[20]
+[19] [20]
 Underfull \hbox (badness 1622) in paragraph at lines 184--190
 \T1/phv/m/n/12 com-bi-na-ção de pa-res de es-ta-dos, ge-rando para cada mo-lé-c
 ula um LCM. A
  []
 
-[21]
+
 Underfull \hbox (badness 2689) in paragraph at lines 195--202
 []\T1/phv/m/n/12 Neste ca-pí-tulo fo-ram apre-sen-ta-das al-gu-mas das fer-ra-m
 en-tas uti-li-za-das
@@ -1150,48 +1159,66 @@ Underfull \hbox (badness 1331) in paragraph at lines 195--202
 (de agora em di-ante
  []
 
-) (./conteudo/metodologia.tex [22]
+) (./conteudo/metodologia.tex [21]
 Cap\'{\i }tulo 3.
-
-Underfull \hbox (badness 1194) in paragraph at lines 4--8
-\T1/phv/m/n/12 de-sen-vol-vi-mento e im-ple-men-ta-ção do al-go-ritmo a ser ada
-p-tado no Nat-ProDB.
- []
-
-[23
+[22
 
 ]
-Underfull \hbox (badness 1077) in paragraph at lines 20--21
+Underfull \hbox (badness 1077) in paragraph at lines 18--19
 \T1/phv/m/n/12 de si-mi-la-ri-dade, per-mi-tindo as-sim a com-pa-ra-ção não so-
 mente de si-mi-la-ri-dade
  []
 
-[24] [25]
+[23] [24]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 33.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 31.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 33.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 31.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 35.
- [26]) (./conteudo/resultados.tex [27]
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 33.
+ [25]) (./conteudo/resultados.tex [26]
 Cap\'{\i }tulo 4.
-[28
 
-] [29] [30] [31]) (./conteudo/conclusao.tex [32]
-Cap\'{\i }tulo 5.
-
-Underfull \hbox (badness 2027) in paragraph at lines 6--7
-\T1/phv/m/n/12 atra-vés da con-ta-gem de ca-rac-te-rís-ti-cas/grupos fun-ci-o-n
-ais pre-sen-tes em cada
+Underfull \hbox (badness 2027) in paragraph at lines 36--37
+[]\T1/phv/m/n/12 A par-tir da ta-bela 3[] tam-bém po-de-mos ob-ser-var que para
+ esse teste
  []
 
-[33
 
-]) (./indexMonografia.bbl [34] [35
+Underfull \hbox (badness 5817) in paragraph at lines 36--37
+\T1/phv/m/n/12 fo-ram ob-ti-das: Acu-rá-cia = 99,00% equa-ção[], Sen-si-bi-li-d
+ade = 96,00%
+ []
+
+[27
+
+] [28] [29] [30]) (./conteudo/conclusao.tex [31]
+Cap\'{\i }tulo 5.
+
+Underfull \hbox (badness 1259) in paragraph at lines 6--8
+\T1/phv/m/n/12 ou até mesmo o Co-e-fi-ci-ente de Ta-ni-moto, que cal-cu-lam a s
+i-mi-la-ri-dade en-tre
+ []
+
+
+Underfull \hbox (badness 2351) in paragraph at lines 11--12
+[]\T1/phv/m/n/12 Devido ao fato do al-go-ritmo im-ple-men-tado no Nat-ProDB re-
+a-li-zar uma
+ []
+
+
+Underfull \hbox (badness 2119) in paragraph at lines 11--12
+\T1/phv/m/n/12 pos-te-ri-or-mente no sis-tema tanto lo-cal quanto web, al-go-ri
+t-mos que re-a-lize a
+ []
+
+[32
+
+]) (./indexMonografia.bbl [33] [34
 
 ]) 
 AED: lastpage setting LastPage
-[36]
+[35]
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
@@ -1202,10 +1229,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 11582 strings out of 494935
- 203025 string characters out of 6179320
- 250057 words of memory out of 5000000
- 14530 multiletter control sequences out of 15000+600000
+ 11587 strings out of 494935
+ 203152 string characters out of 6179320
+ 250125 words of memory out of 5000000
+ 14535 multiletter control sequences out of 15000+600000
  79479 words of font info for 139 fonts, out of 8000000 for 9000
  38 hyphenation exceptions out of 8191
  45i,13n,43p,10414b,330s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1220,10 +1247,10 @@ urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic
 live/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
 /times/utmri8a.pfb>
-Output written on indexMonografia.pdf (38 pages, 402278 bytes).
+Output written on indexMonografia.pdf (37 pages, 402671 bytes).
 PDF statistics:
- 177 PDF objects out of 1000 (max. 8388607)
- 121 compressed objects within 2 object streams
+ 174 PDF objects out of 1000 (max. 8388607)
+ 119 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

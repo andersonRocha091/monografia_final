@@ -13,7 +13,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: abnt-options.bib
 Database file #2: abnt-uefs.bib
 Warning--entry type for "Dogra2007" isn't style-file defined
---line 66 of file abnt-uefs.bib
+--line 75 of file abnt-uefs.bib
 Warning--I didn't find a database entry for "call=authordata"
 Warning--I didn't find a database entry for "abnTeX2009"
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
@@ -27,45 +27,45 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de duvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 29 entries,
+You've used 30 entries,
             6522 wiz_defined-function locations,
-            1315 strings with 13652 characters,
-and the built_in function-call counts, 22665 in all, are:
-= -- 1758
-> -- 756
-< -- 58
-+ -- 324
-- -- 228
-* -- 1600
-:= -- 2885
-add.period$ -- 80
-call.type$ -- 33
-change.case$ -- 269
-chr.to.int$ -- 75
-cite$ -- 23
-duplicate$ -- 1064
-empty$ -- 1847
-format.name$ -- 1074
-if$ -- 5508
+            1323 strings with 13751 characters,
+and the built_in function-call counts, 23587 in all, are:
+= -- 1828
+> -- 789
+< -- 62
++ -- 336
+- -- 238
+* -- 1670
+:= -- 2999
+add.period$ -- 83
+call.type$ -- 34
+change.case$ -- 280
+chr.to.int$ -- 79
+cite$ -- 24
+duplicate$ -- 1113
+empty$ -- 1910
+format.name$ -- 1121
+if$ -- 5725
 int.to.chr$ -- 5
 int.to.str$ -- 3
-missing$ -- 499
-newline$ -- 116
-num.names$ -- 115
-pop$ -- 587
+missing$ -- 518
+newline$ -- 121
+num.names$ -- 120
+pop$ -- 611
 preamble$ -- 1
-purify$ -- 112
+purify$ -- 116
 quote$ -- 0
-skip$ -- 1464
+skip$ -- 1512
 stack$ -- 1
-substring$ -- 988
-swap$ -- 572
-text.length$ -- 42
+substring$ -- 1038
+swap$ -- 601
+text.length$ -- 45
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 186
+while$ -- 195
 width$ -- 0
-write$ -- 392
+write$ -- 409
 (There were 3 warnings)
